@@ -1,0 +1,15 @@
+{
+  "completion_event": 714,
+  "cutoff": "2026-11-22T01:57:55-06:00",
+  "scientific_completions": 200,
+  "complete_output_tokens": 100629,
+  "median_output_tokens": 283.5,
+  "longest_output_tokens": 8058,
+  "stage_counts": {
+    "qualify": 12,
+    "sealed": 37,
+    "profile": 75,
+    "state": 72,
+    "development": 4
+  }
+}

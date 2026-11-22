@@ -1,0 +1,35 @@
+{
+  "last_event_seq": 360,
+  "manifest_sha256": "4516192c45ff56feaeef616ef3f798ae5e1c280cc3dc9906a66bc23476499631",
+  "measured_by_stage": {
+    "development": {
+      "first_response_margin_available": 3,
+      "label_mapped": 3,
+      "tokens_before_label/0": 3,
+      "trials": 3
+    },
+    "profile": {
+      "first_response_margin_available": 35,
+      "label_mapped": 35,
+      "tokens_before_label/0": 35,
+      "trials": 35
+    },
+    "qualify": {
+      "first_response_margin_available": 12,
+      "label_mapped": 12,
+      "tokens_before_label/0": 12,
+      "trials": 12
+    },
+    "sealed": {
+      "first_response_margin_available": 4,
+      "label_mapped": 4,
+      "tokens_before_label/0": 4,
+      "trials": 4
+    }
+  },
+  "omitted": {
+    "sealed": 14,
+    "state": 32
+  },
+  "scope": "Structural readout coverage among the first 100 scientific completions. State-only rows and held-out sealed summaries are omitted. No choice, score value or direction enters the aggregate."
+}

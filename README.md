@@ -35,3 +35,7 @@ The twelve explicit controls each yielded the correct sampled choice and an A−
 Before the first hidden odor write, we registered a supplementary comparison of the token at which matched reasoning histories diverge. Its unit is the molecule. The original primary endpoint stays fixed. [First-divergence registration](protocol/trajectory-registration.md)
 
 An outcome-blind scheduling amendment assigned ten whole, previously untouched groups to the faster of two parity-qualified recorders. An independent audit verified every earlier assignment and the full input manifest. [Assignment audit](protocol/scheduling/20261122T062628-post-application-audit.json)
+
+## Sunday field note
+
+The first 200 completed scientific trials yielded 100,629 emitted tokens. The field note shows the two measured calibration trajectories, the earlier donor-sentence audit, and the answer-boundary check on the first 100 scientific completions. It records what the study had established by 1:57 a.m. Chicago time on November 22. [Download the illustrated field note and data tables](reports/what-the-air-remembers-first-200.zip) · [Browse its sources](reports/first-200)
