@@ -1,0 +1,88 @@
+{
+  "schema": "air-sunday-interim/1",
+  "captured_utc": "2026-11-22T20:00:05.389208+00:00",
+  "cutoff_utc": "2026-11-22T20:00:00+00:00",
+  "cutoff_chicago": "2026-11-22T14:00:00-06:00",
+  "early_rehearsal": false,
+  "scheduled_chicago": "2026-11-22T14:00:00-06:00",
+  "manifest_sha256": "4516192c45ff56feaeef616ef3f798ae5e1c280cc3dc9906a66bc23476499631",
+  "progress": {
+    "cohorts": {
+      "fit": {
+        "targets": 24,
+        "states": 96,
+        "comparisons": 267,
+        "complete_profiles": 17,
+        "all_inputs_present": 17
+      },
+      "dev": {
+        "targets": 4,
+        "states": 16,
+        "comparisons": 45,
+        "complete_profiles": 2,
+        "all_inputs_present": 2
+      }
+    },
+    "transport_acquisition": {
+      "0.05": {
+        "complete_sets": 0,
+        "completed_receipts": 5
+      },
+      "0.10": {
+        "complete_sets": 0,
+        "completed_receipts": 0
+      }
+    },
+    "last_eligible_completion_event": 3082,
+    "unique_eligible_receipts": 429,
+    "completed_input_ids_sha256": "9ead83f5403174131d7ac82105e7f7309660ddd21a16332f323a0f482186e56a"
+  },
+  "decisions": {
+    "writer": null,
+    "delivery": [],
+    "closed": null
+  },
+  "public": {
+    "datasets": [
+      {
+        "records": 30,
+        "asset": "https://github.com/kirstenruge-ship-it/what-the-air-remembers/releases/download/native-qualification-v1/native-qualification-v1.zip",
+        "sha256": "f4716715b614816ab76b12a1cee51af87a106ad4556cbbb50f50e15dd4cd08f0"
+      },
+      {
+        "records": 96,
+        "asset": "https://github.com/kirstenruge-ship-it/what-the-air-remembers/releases/download/fit-cross-alias-v1/fit-cross-alias-reproduction.zip",
+        "sha256": "7be30d97666d381f66c527699197b41c13014c74fb666f23e65cad2504c15e43"
+      }
+    ],
+    "molab": "https://molab.marimo.io/notebooks/nb_R6WFpLUTQJdZNwndSMx7G4",
+    "technical": {
+      "true_zero_replays": 6,
+      "planned_explicit": 12,
+      "correct_explicit": 12,
+      "correct_margins": 12,
+      "canaries": [
+        {
+          "cid": "31266",
+          "name": "allyl hexanoate",
+          "first_difference": 76,
+          "clean": "whiskey lactone",
+          "edited": "whiskey lactone"
+        },
+        {
+          "cid": "61229",
+          "name": "vanillin acetate",
+          "first_difference": 9,
+          "clean": "eugenol",
+          "edited": "whiskey lactone"
+        }
+      ]
+    },
+    "alias": {
+      "molecules": 24,
+      "queries": 48,
+      "field_note_figure_sha256": "3e413841a73a122605d2e4f5693b86265ef35508ee7a5d3933bec44fe5d4fd9a",
+      "report_sha256": "7151df95f7ce850eff3c04400e610160cd390c57f8d5c7ccc84be7c960fa6d7a"
+    }
+  }
+}
