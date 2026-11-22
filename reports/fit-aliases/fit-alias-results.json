@@ -1,0 +1,880 @@
+{
+  "schema": "astra-fit-alias-identity/1",
+  "registration_sha256": "c682591b645ada34caa69ddbf367f03838c8489ea04590b28232f141bd8ea1b1",
+  "local_registration_commit": "c8984faa03988e2bdaf5100f0c1b48485fce1610",
+  "manifest_sha256": "4516192c45ff56feaeef616ef3f798ae5e1c280cc3dc9906a66bc23476499631",
+  "planned_fit_molecules": 24,
+  "planned_fit_cells": 96,
+  "candidate_molecules": 24,
+  "candidate_cells": 96,
+  "explicitly_omitted_cids": [],
+  "missing_markers": 0,
+  "missing_trial_ids": [],
+  "tensors_opened": true,
+  "model_requests": 0,
+  "status": "measured",
+  "measured_fit_molecules": 24,
+  "layers": [
+    23,
+    47,
+    71
+  ],
+  "seed": 20261122,
+  "permutation_draws": 10000,
+  "node_counts": {
+    "3c7ce2b23f9c": 24
+  },
+  "directed_full_gallery_queries_per_view": 48,
+  "full_gallery_candidates_per_query": 24,
+  "hard_foil_selection": {
+    "nearest_fingerprint": 20,
+    "same_family": 4
+  },
+  "distinct_hard_foils": 14,
+  "roster_sha256": "f930c3b02145ba4fa758c5bf3c331d23790b8372d60d13e379bf9c288135c776",
+  "nuisance_sha256": "3290b3cc4096f1b48e7374a0b7f9d225db000534d4b50020fd65da0fdd6ae97a",
+  "results": [
+    {
+      "layer": "none",
+      "view": "spelling",
+      "gallery": "all",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.7291666666666666,
+      "forward_top1": 0.75,
+      "reverse_top1": 0.7083333333333334,
+      "mean_midrank": 3.1041666666666665,
+      "mean_reciprocal_midrank": 0.7875084916170757,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.04179791666666667,
+      "permutation_central95": [
+        0.0,
+        0.125
+      ],
+      "permutation_p_upper": 9.999000099990002e-05,
+      "foil_win": 0.84375,
+      "hard_foil_strata": {
+        "same_family": {
+          "molecules": 4,
+          "directed_queries": 8,
+          "win": 0.5
+        },
+        "nearest_fingerprint": {
+          "molecules": 20,
+          "directed_queries": 40,
+          "win": 0.9125
+        }
+      }
+    },
+    {
+      "layer": "none",
+      "view": "spelling",
+      "gallery": "within_node",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.7291666666666666,
+      "forward_top1": 0.75,
+      "reverse_top1": 0.7083333333333334,
+      "mean_midrank": 3.1041666666666665,
+      "mean_reciprocal_midrank": 0.7875084916170757,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.041591666666666666,
+      "permutation_central95": [
+        0.0,
+        0.125
+      ],
+      "permutation_p_upper": 9.999000099990002e-05,
+      "foil_win": null
+    },
+    {
+      "layer": 23,
+      "view": "odor_minus_name",
+      "gallery": "all",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.20833333333333334,
+      "forward_top1": 0.16666666666666666,
+      "reverse_top1": 0.25,
+      "mean_midrank": 5.354166666666667,
+      "mean_reciprocal_midrank": 0.4358902382339882,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.042514583333333335,
+      "permutation_central95": [
+        0.0,
+        0.125
+      ],
+      "permutation_p_upper": 0.0005999400059994001,
+      "foil_win": 0.7916666666666666,
+      "hard_foil_strata": {
+        "same_family": {
+          "molecules": 4,
+          "directed_queries": 8,
+          "win": 0.75
+        },
+        "nearest_fingerprint": {
+          "molecules": 20,
+          "directed_queries": 40,
+          "win": 0.8
+        }
+      }
+    },
+    {
+      "layer": 23,
+      "view": "odor_minus_name",
+      "gallery": "within_node",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.20833333333333334,
+      "forward_top1": 0.16666666666666666,
+      "reverse_top1": 0.25,
+      "mean_midrank": 5.354166666666667,
+      "mean_reciprocal_midrank": 0.4358902382339882,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.04173958333333334,
+      "permutation_central95": [
+        0.0,
+        0.125
+      ],
+      "permutation_p_upper": 0.0005999400059994001,
+      "foil_win": null
+    },
+    {
+      "layer": 23,
+      "view": "odor_only",
+      "gallery": "all",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.3125,
+      "forward_top1": 0.25,
+      "reverse_top1": 0.375,
+      "mean_midrank": 6.645833333333333,
+      "mean_reciprocal_midrank": 0.43058118352236,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.04216875,
+      "permutation_central95": [
+        0.0,
+        0.125
+      ],
+      "permutation_p_upper": 9.999000099990002e-05,
+      "foil_win": 0.75,
+      "hard_foil_strata": {
+        "same_family": {
+          "molecules": 4,
+          "directed_queries": 8,
+          "win": 0.5
+        },
+        "nearest_fingerprint": {
+          "molecules": 20,
+          "directed_queries": 40,
+          "win": 0.8
+        }
+      }
+    },
+    {
+      "layer": 23,
+      "view": "odor_only",
+      "gallery": "within_node",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.3125,
+      "forward_top1": 0.25,
+      "reverse_top1": 0.375,
+      "mean_midrank": 6.645833333333333,
+      "mean_reciprocal_midrank": 0.43058118352236,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.04182291666666666,
+      "permutation_central95": [
+        0.0,
+        0.125
+      ],
+      "permutation_p_upper": 9.999000099990002e-05,
+      "foil_win": null
+    },
+    {
+      "layer": 23,
+      "view": "printed_name_only",
+      "gallery": "all",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.2916666666666667,
+      "forward_top1": 0.25,
+      "reverse_top1": 0.3333333333333333,
+      "mean_midrank": 6.083333333333333,
+      "mean_reciprocal_midrank": 0.4194382551000198,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.04169791666666667,
+      "permutation_central95": [
+        0.0,
+        0.125
+      ],
+      "permutation_p_upper": 9.999000099990002e-05,
+      "foil_win": 0.6875,
+      "hard_foil_strata": {
+        "same_family": {
+          "molecules": 4,
+          "directed_queries": 8,
+          "win": 0.625
+        },
+        "nearest_fingerprint": {
+          "molecules": 20,
+          "directed_queries": 40,
+          "win": 0.7
+        }
+      }
+    },
+    {
+      "layer": 23,
+      "view": "printed_name_only",
+      "gallery": "within_node",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.2916666666666667,
+      "forward_top1": 0.25,
+      "reverse_top1": 0.3333333333333333,
+      "mean_midrank": 6.083333333333333,
+      "mean_reciprocal_midrank": 0.4194382551000198,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.041479166666666664,
+      "permutation_central95": [
+        0.0,
+        0.125
+      ],
+      "permutation_p_upper": 9.999000099990002e-05,
+      "foil_win": null
+    },
+    {
+      "layer": 47,
+      "view": "odor_minus_name",
+      "gallery": "all",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.25,
+      "forward_top1": 0.20833333333333334,
+      "reverse_top1": 0.2916666666666667,
+      "mean_midrank": 6.791666666666667,
+      "mean_reciprocal_midrank": 0.39952828353563646,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.04191875,
+      "permutation_central95": [
+        0.0,
+        0.125
+      ],
+      "permutation_p_upper": 9.999000099990002e-05,
+      "foil_win": 0.75,
+      "hard_foil_strata": {
+        "same_family": {
+          "molecules": 4,
+          "directed_queries": 8,
+          "win": 1.0
+        },
+        "nearest_fingerprint": {
+          "molecules": 20,
+          "directed_queries": 40,
+          "win": 0.7
+        }
+      }
+    },
+    {
+      "layer": 47,
+      "view": "odor_minus_name",
+      "gallery": "within_node",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.25,
+      "forward_top1": 0.20833333333333334,
+      "reverse_top1": 0.2916666666666667,
+      "mean_midrank": 6.791666666666667,
+      "mean_reciprocal_midrank": 0.39952828353563646,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.0418375,
+      "permutation_central95": [
+        0.0,
+        0.125
+      ],
+      "permutation_p_upper": 0.00019998000199980003,
+      "foil_win": null
+    },
+    {
+      "layer": 47,
+      "view": "odor_only",
+      "gallery": "all",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.25,
+      "forward_top1": 0.20833333333333334,
+      "reverse_top1": 0.2916666666666667,
+      "mean_midrank": 8.354166666666666,
+      "mean_reciprocal_midrank": 0.37329146118329554,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.04183958333333334,
+      "permutation_central95": [
+        0.0,
+        0.10416666666666667
+      ],
+      "permutation_p_upper": 9.999000099990002e-05,
+      "foil_win": 0.625,
+      "hard_foil_strata": {
+        "same_family": {
+          "molecules": 4,
+          "directed_queries": 8,
+          "win": 0.625
+        },
+        "nearest_fingerprint": {
+          "molecules": 20,
+          "directed_queries": 40,
+          "win": 0.625
+        }
+      }
+    },
+    {
+      "layer": 47,
+      "view": "odor_only",
+      "gallery": "within_node",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.25,
+      "forward_top1": 0.20833333333333334,
+      "reverse_top1": 0.2916666666666667,
+      "mean_midrank": 8.354166666666666,
+      "mean_reciprocal_midrank": 0.37329146118329554,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.041452083333333334,
+      "permutation_central95": [
+        0.0,
+        0.10416666666666667
+      ],
+      "permutation_p_upper": 9.999000099990002e-05,
+      "foil_win": null
+    },
+    {
+      "layer": 47,
+      "view": "printed_name_only",
+      "gallery": "all",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.1875,
+      "forward_top1": 0.16666666666666666,
+      "reverse_top1": 0.20833333333333334,
+      "mean_midrank": 6.1875,
+      "mean_reciprocal_midrank": 0.3738673822773088,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.04187708333333333,
+      "permutation_central95": [
+        0.0,
+        0.125
+      ],
+      "permutation_p_upper": 0.0020997900209979003,
+      "foil_win": 0.7083333333333334,
+      "hard_foil_strata": {
+        "same_family": {
+          "molecules": 4,
+          "directed_queries": 8,
+          "win": 0.75
+        },
+        "nearest_fingerprint": {
+          "molecules": 20,
+          "directed_queries": 40,
+          "win": 0.7
+        }
+      }
+    },
+    {
+      "layer": 47,
+      "view": "printed_name_only",
+      "gallery": "within_node",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.1875,
+      "forward_top1": 0.16666666666666666,
+      "reverse_top1": 0.20833333333333334,
+      "mean_midrank": 6.1875,
+      "mean_reciprocal_midrank": 0.3738673822773088,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.04186875,
+      "permutation_central95": [
+        0.0,
+        0.125
+      ],
+      "permutation_p_upper": 0.0010998900109989002,
+      "foil_win": null
+    },
+    {
+      "layer": 71,
+      "view": "odor_minus_name",
+      "gallery": "all",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.2708333333333333,
+      "forward_top1": 0.2916666666666667,
+      "reverse_top1": 0.25,
+      "mean_midrank": 5.958333333333333,
+      "mean_reciprocal_midrank": 0.43569468725718724,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.0421,
+      "permutation_central95": [
+        0.0,
+        0.125
+      ],
+      "permutation_p_upper": 9.999000099990002e-05,
+      "foil_win": 0.75,
+      "hard_foil_strata": {
+        "same_family": {
+          "molecules": 4,
+          "directed_queries": 8,
+          "win": 0.5
+        },
+        "nearest_fingerprint": {
+          "molecules": 20,
+          "directed_queries": 40,
+          "win": 0.8
+        }
+      }
+    },
+    {
+      "layer": 71,
+      "view": "odor_minus_name",
+      "gallery": "within_node",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.2708333333333333,
+      "forward_top1": 0.2916666666666667,
+      "reverse_top1": 0.25,
+      "mean_midrank": 5.958333333333333,
+      "mean_reciprocal_midrank": 0.43569468725718724,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.04196041666666666,
+      "permutation_central95": [
+        0.0,
+        0.125
+      ],
+      "permutation_p_upper": 9.999000099990002e-05,
+      "foil_win": null
+    },
+    {
+      "layer": 71,
+      "view": "odor_only",
+      "gallery": "all",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.2916666666666667,
+      "forward_top1": 0.25,
+      "reverse_top1": 0.3333333333333333,
+      "mean_midrank": 5.458333333333333,
+      "mean_reciprocal_midrank": 0.4602197570947571,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.04171458333333334,
+      "permutation_central95": [
+        0.0,
+        0.125
+      ],
+      "permutation_p_upper": 9.999000099990002e-05,
+      "foil_win": 0.8125,
+      "hard_foil_strata": {
+        "same_family": {
+          "molecules": 4,
+          "directed_queries": 8,
+          "win": 0.375
+        },
+        "nearest_fingerprint": {
+          "molecules": 20,
+          "directed_queries": 40,
+          "win": 0.9
+        }
+      }
+    },
+    {
+      "layer": 71,
+      "view": "odor_only",
+      "gallery": "within_node",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.2916666666666667,
+      "forward_top1": 0.25,
+      "reverse_top1": 0.3333333333333333,
+      "mean_midrank": 5.458333333333333,
+      "mean_reciprocal_midrank": 0.4602197570947571,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.041883333333333335,
+      "permutation_central95": [
+        0.0,
+        0.125
+      ],
+      "permutation_p_upper": 9.999000099990002e-05,
+      "foil_win": null
+    },
+    {
+      "layer": 71,
+      "view": "printed_name_only",
+      "gallery": "all",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.2708333333333333,
+      "forward_top1": 0.2916666666666667,
+      "reverse_top1": 0.25,
+      "mean_midrank": 6.958333333333333,
+      "mean_reciprocal_midrank": 0.4222263825785498,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.041695833333333335,
+      "permutation_central95": [
+        0.0,
+        0.125
+      ],
+      "permutation_p_upper": 9.999000099990002e-05,
+      "foil_win": 0.6875,
+      "hard_foil_strata": {
+        "same_family": {
+          "molecules": 4,
+          "directed_queries": 8,
+          "win": 0.5
+        },
+        "nearest_fingerprint": {
+          "molecules": 20,
+          "directed_queries": 40,
+          "win": 0.725
+        }
+      }
+    },
+    {
+      "layer": 71,
+      "view": "printed_name_only",
+      "gallery": "within_node",
+      "status": "ok",
+      "molecules": 24,
+      "directed_queries": 48,
+      "top1": 0.2708333333333333,
+      "forward_top1": 0.2916666666666667,
+      "reverse_top1": 0.25,
+      "mean_midrank": 6.958333333333333,
+      "mean_reciprocal_midrank": 0.4222263825785498,
+      "candidate_counts": {
+        "24": 24
+      },
+      "expected_chance": 0.041666666666666664,
+      "permutation_mean": 0.04157083333333333,
+      "permutation_central95": [
+        0.0,
+        0.125
+      ],
+      "permutation_p_upper": 9.999000099990002e-05,
+      "foil_win": null
+    }
+  ],
+  "contrasts": [
+    {
+      "layer": 23,
+      "gallery": "all",
+      "control": "odor_only",
+      "delta_top1": -0.10416666666666666,
+      "paired_permutation_central95": [
+        -0.0625,
+        0.08333333333333334
+      ],
+      "paired_permutation_p_upper": 0.9986001399860014
+    },
+    {
+      "layer": 23,
+      "gallery": "all",
+      "control": "printed_name_only",
+      "delta_top1": -0.08333333333333334,
+      "paired_permutation_central95": [
+        -0.08333333333333334,
+        0.08333333333333334
+      ],
+      "paired_permutation_p_upper": 0.9824017598240176
+    },
+    {
+      "layer": 23,
+      "gallery": "within_node",
+      "control": "odor_only",
+      "delta_top1": -0.10416666666666666,
+      "paired_permutation_central95": [
+        -0.0625,
+        0.08333333333333334
+      ],
+      "paired_permutation_p_upper": 0.9984001599840016
+    },
+    {
+      "layer": 23,
+      "gallery": "within_node",
+      "control": "printed_name_only",
+      "delta_top1": -0.08333333333333334,
+      "paired_permutation_central95": [
+        -0.08333333333333334,
+        0.08333333333333334
+      ],
+      "paired_permutation_p_upper": 0.9824017598240176
+    },
+    {
+      "layer": 47,
+      "gallery": "all",
+      "control": "odor_only",
+      "delta_top1": 0.0,
+      "paired_permutation_central95": [
+        -0.0625,
+        0.06250000000000001
+      ],
+      "paired_permutation_p_upper": 0.626937306269373
+    },
+    {
+      "layer": 47,
+      "gallery": "all",
+      "control": "printed_name_only",
+      "delta_top1": 0.0625,
+      "paired_permutation_central95": [
+        -0.08333333333333333,
+        0.08333333333333333
+      ],
+      "paired_permutation_p_upper": 0.07029297070292971
+    },
+    {
+      "layer": 47,
+      "gallery": "within_node",
+      "control": "odor_only",
+      "delta_top1": 0.0,
+      "paired_permutation_central95": [
+        -0.08333333333333333,
+        0.08333333333333333
+      ],
+      "paired_permutation_p_upper": 0.6397360263973603
+    },
+    {
+      "layer": 47,
+      "gallery": "within_node",
+      "control": "printed_name_only",
+      "delta_top1": 0.0625,
+      "paired_permutation_central95": [
+        -0.06250000000000001,
+        0.06250000000000001
+      ],
+      "paired_permutation_p_upper": 0.07289271072892711
+    },
+    {
+      "layer": 71,
+      "gallery": "all",
+      "control": "odor_only",
+      "delta_top1": -0.02083333333333337,
+      "paired_permutation_central95": [
+        -0.08333333333333334,
+        0.08333333333333334
+      ],
+      "paired_permutation_p_upper": 0.7926207379262074
+    },
+    {
+      "layer": 71,
+      "gallery": "all",
+      "control": "printed_name_only",
+      "delta_top1": 0.0,
+      "paired_permutation_central95": [
+        -0.0625,
+        0.0625
+      ],
+      "paired_permutation_p_upper": 0.6676332366763323
+    },
+    {
+      "layer": 71,
+      "gallery": "within_node",
+      "control": "odor_only",
+      "delta_top1": -0.02083333333333337,
+      "paired_permutation_central95": [
+        -0.08333333333333334,
+        0.08333333333333334
+      ],
+      "paired_permutation_p_upper": 0.7812218778122187
+    },
+    {
+      "layer": 71,
+      "gallery": "within_node",
+      "control": "printed_name_only",
+      "delta_top1": 0.0,
+      "paired_permutation_central95": [
+        -0.0625,
+        0.0625
+      ],
+      "paired_permutation_p_upper": 0.6651334866513349
+    }
+  ],
+  "scope": "Fit-only cross-alias molecule identity, fixed prompt frames and metric. Chemistry, source semantics and spelling remain viable explanations; these are not odor-sensation or mediated behavioral outcomes.",
+  "receipt_verification": {
+    "molecules": 24,
+    "distinct_logical_cells": 96,
+    "unique_completed_physical_ids": 96,
+    "endpoint_fingerprints": [
+      "3c7ce2b23f9c"
+    ],
+    "authorized_replacements": [
+      {
+        "trial_id": "as-36aefc8b83b3ab691909",
+        "cid": "13216",
+        "physical_run_id": "astra-air-retry-de32f60364d669318288-0001-d55437c791e0",
+        "authorization_sha256": "315f331690c558937a2abbe7e2aec7346c943b0333b83deca4ff8ad998cb04b2"
+      }
+    ]
+  },
+  "endpoint_counts": {
+    "3c7ce2b23f9c": 24
+  },
+  "stratification_note": "The registered within-node gallery uses the endpoint fingerprint and recorder source. The primary GPU container was replaced during as-36aefc8b83b3ab691909. The fingerprint is shared across its old and new containers; this restriction cannot control for container-specific differences.",
+  "posthoc_spelling_overlap": {
+    "scope": "Post-hoc descriptive overlap; no significance test. A miss has zero first-place credit; tied and outright first are recorded separately.",
+    "layers": [
+      {
+        "layer": 23,
+        "status": "measured",
+        "directed_queries": 48,
+        "cells_spelling_then_contrast": {
+          "miss_miss": 12,
+          "miss_tied": 0,
+          "miss_outright": 1,
+          "tied_miss": 0,
+          "tied_tied": 0,
+          "tied_outright": 0,
+          "outright_miss": 26,
+          "outright_tied": 0,
+          "outright_outright": 9
+        },
+        "any_tied_top": 0,
+        "recovered_directions": [
+          {
+            "cid": "8091",
+            "direction": "alias_to_name",
+            "contrast_status": "outright"
+          }
+        ],
+        "recovered_distinct_molecules": 1
+      },
+      {
+        "layer": 47,
+        "status": "measured",
+        "directed_queries": 48,
+        "cells_spelling_then_contrast": {
+          "miss_miss": 12,
+          "miss_tied": 0,
+          "miss_outright": 1,
+          "tied_miss": 0,
+          "tied_tied": 0,
+          "tied_outright": 0,
+          "outright_miss": 24,
+          "outright_tied": 0,
+          "outright_outright": 11
+        },
+        "any_tied_top": 0,
+        "recovered_directions": [
+          {
+            "cid": "8091",
+            "direction": "alias_to_name",
+            "contrast_status": "outright"
+          }
+        ],
+        "recovered_distinct_molecules": 1
+      },
+      {
+        "layer": 71,
+        "status": "measured",
+        "directed_queries": 48,
+        "cells_spelling_then_contrast": {
+          "miss_miss": 12,
+          "miss_tied": 0,
+          "miss_outright": 1,
+          "tied_miss": 0,
+          "tied_tied": 0,
+          "tied_outright": 0,
+          "outright_miss": 23,
+          "outright_tied": 0,
+          "outright_outright": 12
+        },
+        "any_tied_top": 0,
+        "recovered_directions": [
+          {
+            "cid": "8091",
+            "direction": "alias_to_name",
+            "contrast_status": "outright"
+          }
+        ],
+        "recovered_distinct_molecules": 1
+      }
+    ],
+    "distinct_recovered_molecules_across_layers": 1,
+    "unique_recovered_directions_across_layers": [
+      {
+        "cid": "8091",
+        "direction": "alias_to_name"
+      }
+    ]
+  }
+}

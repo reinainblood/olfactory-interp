@@ -1,6 +1,6 @@
 # What the air remembers
 
-**All three nodes passed calibration. Kimi passed all 12 scientific qualification prompts. Collection of ordinary state and reference data is underway.** The pre-exposure report is a preserved historical snapshot. Scientific outcome estimates will be posted after the registered evidence and review gates.
+**All three nodes passed calibration. Kimi passed all 12 scientific qualification prompts. All 160 ordinary state captures are complete. Collection of odor profiles and independent reference judgments is underway.** The pre-exposure report is a preserved historical snapshot. Scientific outcome estimates will be posted after the registered evidence and review gates.
 
 Kirsten Ruge’s independent Hive Fidelity research asks whether a hidden cue synthesized from Kimi K3.1 Pro’s own odor-similarity judgments can recover decisions about an unnamed sample and retrieve an arbitrary detail from a recent household episode. The fixed checkpoint is `moonshotai/Kimi-K3.1-Pro` at `d9e99b0792a5e93b78ea9bea62a68167e36ddd9e`. Study execution uses maximum reasoning effort, temperature 1, and natural generation without an application output-token cap.
 
@@ -39,3 +39,7 @@ An outcome-blind scheduling amendment assigned ten whole, previously untouched g
 ## Sunday field note
 
 The first 200 completed scientific trials yielded 100,629 emitted tokens. The field note shows the two measured calibration trajectories, the earlier donor-sentence audit, and the answer-boundary check on the first 100 scientific completions. It records what the study had established by 1:57 a.m. Chicago time on November 22. [Download the illustrated field note and data tables](reports/what-the-air-remembers-first-200.zip) · [Browse its sources](reports/first-200)
+
+## Can another name retrieve the same compound?
+
+Across 24 fitting compounds, the odor-minus-printed-name activation retrieved the correct alternate name in 10, 12, and 13 of 48 reciprocal queries at layers 23, 47, and 71. Random matching averages two. Spelling alone recovered 35. At every layer, the activation contrast recovered one query spelling missed, the same direction from methyl octanoate to methyl caprylate. This secondary analysis measures identity in ordinary named prompts. The causal study tests whether an unnamed odor-quality intervention can steer a decision. [Measured results and controls](reports/fit-aliases/measured-results.md) · [96 native records, exact activations, code and offline field note](https://github.com/kirstenruge-ship-it/what-the-air-remembers/releases/tag/fit-cross-alias-v1)

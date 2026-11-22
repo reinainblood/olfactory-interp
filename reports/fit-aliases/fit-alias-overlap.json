@@ -1,0 +1,87 @@
+{
+  "scope": "Post-hoc descriptive overlap; no significance test. A miss has zero first-place credit; tied and outright first are recorded separately.",
+  "layers": [
+    {
+      "layer": 23,
+      "status": "measured",
+      "directed_queries": 48,
+      "cells_spelling_then_contrast": {
+        "miss_miss": 12,
+        "miss_tied": 0,
+        "miss_outright": 1,
+        "tied_miss": 0,
+        "tied_tied": 0,
+        "tied_outright": 0,
+        "outright_miss": 26,
+        "outright_tied": 0,
+        "outright_outright": 9
+      },
+      "any_tied_top": 0,
+      "recovered_directions": [
+        {
+          "cid": "8091",
+          "direction": "alias_to_name",
+          "contrast_status": "outright"
+        }
+      ],
+      "recovered_distinct_molecules": 1
+    },
+    {
+      "layer": 47,
+      "status": "measured",
+      "directed_queries": 48,
+      "cells_spelling_then_contrast": {
+        "miss_miss": 12,
+        "miss_tied": 0,
+        "miss_outright": 1,
+        "tied_miss": 0,
+        "tied_tied": 0,
+        "tied_outright": 0,
+        "outright_miss": 24,
+        "outright_tied": 0,
+        "outright_outright": 11
+      },
+      "any_tied_top": 0,
+      "recovered_directions": [
+        {
+          "cid": "8091",
+          "direction": "alias_to_name",
+          "contrast_status": "outright"
+        }
+      ],
+      "recovered_distinct_molecules": 1
+    },
+    {
+      "layer": 71,
+      "status": "measured",
+      "directed_queries": 48,
+      "cells_spelling_then_contrast": {
+        "miss_miss": 12,
+        "miss_tied": 0,
+        "miss_outright": 1,
+        "tied_miss": 0,
+        "tied_tied": 0,
+        "tied_outright": 0,
+        "outright_miss": 23,
+        "outright_tied": 0,
+        "outright_outright": 12
+      },
+      "any_tied_top": 0,
+      "recovered_directions": [
+        {
+          "cid": "8091",
+          "direction": "alias_to_name",
+          "contrast_status": "outright"
+        }
+      ],
+      "recovered_distinct_molecules": 1
+    }
+  ],
+  "distinct_recovered_molecules_across_layers": 1,
+  "unique_recovered_directions_across_layers": [
+    {
+      "cid": "8091",
+      "direction": "alias_to_name"
+    }
+  ]
+}

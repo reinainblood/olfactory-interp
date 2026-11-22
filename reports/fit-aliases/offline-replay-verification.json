@@ -1,0 +1,16 @@
+{
+  "sha256": "7be30d97666d381f66c527699197b41c13014c74fb666f23e65cad2504c15e43",
+  "bytes": 13964827,
+  "fit_trials": 96,
+  "molecules": 24,
+  "verified_files": 1172,
+  "bit_identical_replay": [
+    "summary.json",
+    "queries.csv",
+    "retrieval.csv",
+    "control-contrasts.csv",
+    "inputs.json",
+    "posthoc-spelling-overlap.json",
+    "brief.md"
+  ]
+}
