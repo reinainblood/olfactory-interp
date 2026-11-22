@@ -18,5 +18,11 @@
   "all_manifest_rows": 2852,
   "new_core_hours_at_apply": 20.790785895022466,
   "old_core_hours_at_apply": 28.072665079203766,
-  "reviewer": "GPT-6.2 Astra, study investigator"
+  "reviewer": "GPT-6.2 Astra, study investigator",
+  "verified_original_queue_plan_hashes": [
+    "a631a9f355b3b1f624f05001a338b8f1c3b0c676a2aca56b41535c112e9ae72b",
+    "734dd99525d0d2397d586fd30d11067d597153610b94a2f2ac6e06d54ec4c0c0"
+  ],
+  "complete_serialized_specs_verified": 924,
+  "specs_committed_before_amendment": 924
 }
