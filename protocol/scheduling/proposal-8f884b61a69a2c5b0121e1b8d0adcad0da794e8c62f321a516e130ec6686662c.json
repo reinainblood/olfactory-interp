@@ -1,0 +1,1384 @@
+{
+  "assessment": {
+    "all_warm_budget_wall_hours": 22.859523672262828,
+    "chosen_meets_24h_and_all_warm_cap": true,
+    "chosen_minimum_active_core_hours_within_budget": true,
+    "current_core_estimate": {
+      "active_hours": 52.14380014289985,
+      "active_hours_by_node": {
+        "b": 28.072665079203766,
+        "c": 13.527153302415208,
+        "primary": 10.543981761280877
+      },
+      "all_three_warm_hours_through_synchronized_schedule": 84.2179952376113,
+      "perfect_overlap_wall_lower_hours": 28.072665079203766,
+      "remaining_trials": {
+        "b": 825,
+        "c": 827,
+        "primary": 363
+      },
+      "synchronized_phase_schedule_hours": 28.072665079203766,
+      "synchronized_stage_hours": [
+        10.514489102392686,
+        0.4083296738793279,
+        6.124945108189918,
+        11.024901194741835,
+        0.0,
+        0.0
+      ]
+    },
+    "harvest_overhead_seconds": {
+      "b": 3.453497387466996,
+      "c": 4.693364618998373,
+      "primary": 4.892675624534604
+    },
+    "hours_left_to_24h": 20.855617804129917,
+    "hours_left_to_48h": 44.85561780412992,
+    "hours_left_to_sunday_interim": 13.572006693018807,
+    "lower_length_sensitivity_current_core_estimate": {
+      "active_hours": 42.33029004428161,
+      "active_hours_by_node": {
+        "b": 22.22424030953325,
+        "c": 10.858398319992276,
+        "primary": 9.247651414756087
+      },
+      "all_three_warm_hours_through_synchronized_schedule": 66.67272092859976,
+      "perfect_overlap_wall_lower_hours": 22.22424030953325,
+      "remaining_trials": {
+        "b": 825,
+        "c": 827,
+        "primary": 363
+      },
+      "synchronized_phase_schedule_hours": 22.22424030953325,
+      "synchronized_stage_hours": [
+        8.323988188661556,
+        0.3232616772295732,
+        4.848925158443592,
+        8.728065285198529,
+        0.0,
+        0.0
+      ]
+    },
+    "mean_named_excluding_single_longest": 318.4054054054054,
+    "mean_named_tokens": 405.2894736842105,
+    "mean_state_tokens": 412.8235294117647,
+    "native_tokens_per_second": {
+      "b": 3.4044949021399806,
+      "c": 7.478843645134634,
+      "primary": 4.095855631710958
+    },
+    "node_hours_left": 68.57857101678849,
+    "observed_lengths": {
+      "development": {
+        "max": 1512,
+        "mean": 1512.0,
+        "median": 1512.0,
+        "min": 1512,
+        "n": 2
+      },
+      "profile": {
+        "max": 836,
+        "mean": 259.04,
+        "median": 220,
+        "min": 54,
+        "n": 25
+      },
+      "qualify": {
+        "max": 99,
+        "mean": 58.583333333333336,
+        "median": 53.0,
+        "min": 42,
+        "n": 12
+      },
+      "sealed": {
+        "max": 3620,
+        "mean": 686.5384615384615,
+        "median": 339,
+        "min": 62,
+        "n": 13
+      },
+      "state": {
+        "max": 972,
+        "mean": 412.8235294117647,
+        "median": 327,
+        "min": 163,
+        "n": 17
+      }
+    },
+    "reason": "Core phase schedule exceeds the tighter soft deadline/all-warm budget under both the mean named length and the leave-one-longest-out sensitivity",
+    "timed_named": 38,
+    "timed_state": 17,
+    "trigger_threshold_hours": 20.855617804129917,
+    "triggered": true
+  },
+  "campaign_config_sha256": "61060dc1fcb1e1393a66961c44be34354e1e75b34bfc73f025bece37317a8191",
+  "candidate_moves": {
+    "compound:13216": {
+      "all_block_keys": [
+        "profile-compound-13216"
+      ],
+      "all_registered_physical_trial_ids": [
+        "as-3c640f635eb1acd7c395",
+        "as-46b648f4636390e174cd",
+        "as-4ab055b1d5bc88f8e0ff",
+        "as-529eda045215e693b9d3",
+        "as-85e391c0dec08744b903",
+        "as-8a1819970742e82b6c92",
+        "as-8f19a359f658bdde7947",
+        "as-9cbb5bc658b21182da6b",
+        "as-a58fd0b11674a6af27ed",
+        "as-ad2f1ea4a8d3dfc06e60",
+        "as-c0a5dc403bd276b3ca0c",
+        "as-d49e2ad4c5683e70187d"
+      ],
+      "from": "b",
+      "to": "c"
+    },
+    "compound:641256": {
+      "all_block_keys": [
+        "profile-compound-641256"
+      ],
+      "all_registered_physical_trial_ids": [
+        "as-348b71444e3b32b43911",
+        "as-3ccc6776ca45ce9a4192",
+        "as-43a60a69863e883606d3",
+        "as-5350e5660a2d69b073d3",
+        "as-6068c37af2452f8a2e60",
+        "as-658a47a7d1d2fb825de6",
+        "as-6e3f383ac3ecaf263f76",
+        "as-b517ee0f8c02050426f7",
+        "as-b5971f80155abf6ab5aa",
+        "as-c2bc069f0636654392be",
+        "as-c542a2333926e77e10f1",
+        "as-c93a3eef22d588edb7e8"
+      ],
+      "from": "b",
+      "to": "c"
+    },
+    "compound:660": {
+      "all_block_keys": [
+        "confirm-compound-660",
+        "deletion-compound-660",
+        "name_validation-compound-660",
+        "profile-compound-660",
+        "sealed-compound-660"
+      ],
+      "all_registered_physical_trial_ids": [
+        "as-0154a474b051d1d6ef1a",
+        "as-064365be8321a25ae013",
+        "as-0ae8332c80b8e9972042",
+        "as-0c0f74e27d2c8c2153dc",
+        "as-0c9e7d48200a7cecc0db",
+        "as-0e2faf0e49a1fe80dcea",
+        "as-0f8840f35e8f75e9e369",
+        "as-0ff8fb64429b151deb99",
+        "as-15f648a741accdadbafb",
+        "as-18bce3000ba23cae3768",
+        "as-226a96161f3df5b90e70",
+        "as-246db6b95f26ec47d445",
+        "as-25a23b463e95076979f6",
+        "as-27af1eeca571225465ad",
+        "as-298521726f8b50a8d93f",
+        "as-2e700d1bbba9e467f795",
+        "as-309241dcb68aae9f9f6d",
+        "as-30a81a848f73b810c196",
+        "as-35d5eee7ad24e89331ee",
+        "as-376c34c7cb17f6fb328e",
+        "as-3ae6631f251b44e2c8d8",
+        "as-3b07437d8032a92be2bb",
+        "as-3b937b601a6804679ee0",
+        "as-3e7218a8f9ddce1c8fa8",
+        "as-407dd7843003ab544660",
+        "as-4c2894fff61c63201216",
+        "as-4d187646e84b3077ec83",
+        "as-4e0059c491a56010e0d1",
+        "as-4e46157be42f72227f20",
+        "as-4e9a17ab0e3f39b239d9",
+        "as-5113d21a2e3b65f9f8f7",
+        "as-5115ebfdd5bd5f44eddc",
+        "as-556a760371d3386d2327",
+        "as-57ddd74986d9d101f797",
+        "as-59d56eaa101011f710c1",
+        "as-5c0267a37668dc9b1690",
+        "as-5c52ba5014daa6aa0c16",
+        "as-5d778d6ea30a9251da41",
+        "as-5e59385a020ee53c38cc",
+        "as-5fcd72e9952a86f669c0",
+        "as-615334275504e8858ae1",
+        "as-61fe1becd0eb41925d25",
+        "as-6227e6ee2b498a4062ab",
+        "as-635e11f51dba944f2a06",
+        "as-650a68400b51aa625be7",
+        "as-66c231f1c3871b2288ae",
+        "as-67920b2d16b19eb598b8",
+        "as-68bee17ff728fbdbf7c1",
+        "as-6aa1b0bb561b3da69139",
+        "as-6b317f7bfcf6f3e25517",
+        "as-6c7af2a94f629347d065",
+        "as-71384f168a89de4efa55",
+        "as-7233c6794a2d09d87900",
+        "as-73e60007130bf75e403a",
+        "as-76c637338f79b4a26583",
+        "as-7d8382f6abb209bccb01",
+        "as-7f4a8dd21894814bcf30",
+        "as-81aec250b5afa59c3634",
+        "as-82754c22c80733b76305",
+        "as-84235210ba104e7f8e22",
+        "as-859c9f3693bc6edd75db",
+        "as-860de4f866a0b75fdd5d",
+        "as-8750a13c99be46f237e3",
+        "as-8fe654c6d9c94539dbb3",
+        "as-8ff4154cc66595653863",
+        "as-90b7ebbb8f70c9ac08c2",
+        "as-930174558900eb6aeb53",
+        "as-9513ffbfbfb8b833c6f5",
+        "as-9558eb7068f460864ed8",
+        "as-9c871de311a02db12f93",
+        "as-9ce276fd52958f982dc3",
+        "as-a2874461962435021101",
+        "as-a6a6234882be86527222",
+        "as-a753739edd221131ec5f",
+        "as-a765a56b16ddfa6ae972",
+        "as-a80dd7e242753df250d0",
+        "as-a915ba90688089795477",
+        "as-a9dd11edabc5668bf32c",
+        "as-aa9253bd06d8289a007b",
+        "as-ac9a39d66f04a8521c05",
+        "as-ae586d35618b1b344d07",
+        "as-b402f5a00ddf72104803",
+        "as-b7f8c37b2e7808787ef0",
+        "as-bb5b734065ad60cafc9e",
+        "as-bc1f6522f90ed65cbe38",
+        "as-bc58a86588496a40d09d",
+        "as-bdc97c9b8d1ee660fa3d",
+        "as-cfd3daf48e9c476360b3",
+        "as-d1afa6da610080813d1d",
+        "as-d75060caafffc5712fa8",
+        "as-d8e4967bb81886203f77",
+        "as-d933c178b2b2164fdf4d",
+        "as-d9e4ff4a220b9fa4f7c1",
+        "as-dcf50a213b3198427922",
+        "as-de0d514e3589a65ee4fd",
+        "as-df418949526d971df131",
+        "as-e0a61714b5762500abc9",
+        "as-ebe122005774483b6c4a",
+        "as-ec637deb46e44a9483cd",
+        "as-ed0a532e062e016ee7fe",
+        "as-ef9771bd7ecd5bf1a2aa",
+        "as-f11ccd35054e1670b3f6",
+        "as-f1e6a9102ba9f7e3120c",
+        "as-f28f128fb6d4a77b0ba6",
+        "as-f50b625dbfdf15054928",
+        "as-f6b4f9317ccf98ff7227",
+        "as-f70c7ea8b449c2c99b97",
+        "as-fed8ef55b22a4681183a"
+      ],
+      "from": "b",
+      "to": "c"
+    },
+    "story:story-01": {
+      "all_block_keys": [
+        "encoding-story-01",
+        "household-story-01"
+      ],
+      "all_registered_physical_trial_ids": [
+        "as-03ecdbca7d300c498a86",
+        "as-0c106e283349bce01e99",
+        "as-11a1fe72f46282c3148f",
+        "as-1665bb8ff19ef4f422a7",
+        "as-1a0d01170fcafe861705",
+        "as-1b40701ea12fd4c4778f",
+        "as-2206f976366848602d4d",
+        "as-255d943c6a84b6090e5e",
+        "as-30e2ac6f84b8c220584e",
+        "as-3b18225f9b457cf2ca5b",
+        "as-4504ac5203abcdc4bec4",
+        "as-46377dc82b716db48f3b",
+        "as-58d16237b45a20bba8f3",
+        "as-5d2b846e7e8429a7b863",
+        "as-683a2b40d5073c1553a2",
+        "as-8011ef939fa0e5df845f",
+        "as-85437293a60600767656",
+        "as-85b997477585c133d26f",
+        "as-85badec762f6d4e0135f",
+        "as-87d1d7558b926cf6f248",
+        "as-886368982ec67f525808",
+        "as-95815d83d7ef7fd580d1",
+        "as-97e97cfd02141f219f69",
+        "as-a3b046fccefd69e6a9e3",
+        "as-a6007a68e977eec40162",
+        "as-abaf3b3cf228267e8512",
+        "as-bb5ab8571a3e9f99e702",
+        "as-bc7e9363cbe1edb487c0",
+        "as-c42b422bfcba0328e1f7",
+        "as-c4c8aff9e6d0c0ff2c6e",
+        "as-cd9de0f084a2f7fa34ca",
+        "as-d135aa267fbb92d0cd03",
+        "as-d352c25de1b2837abe87",
+        "as-d3d58002e379ef01dfd8",
+        "as-d5fa280d32628fdcad46",
+        "as-d888f27f358d94c78da1",
+        "as-d90753e0dfa6e63649af",
+        "as-daba4443c5432f7576ec"
+      ],
+      "from": "b",
+      "to": "c"
+    },
+    "story:story-04": {
+      "all_block_keys": [
+        "encoding-story-04",
+        "household-story-04"
+      ],
+      "all_registered_physical_trial_ids": [
+        "as-0a8a1c7c717facd0d716",
+        "as-1ba16fbb98460ea21da4",
+        "as-23ed7bfc8d19e7b1bc37",
+        "as-262b597cf03122df86b9",
+        "as-280eb1a2d1e10ad696ff",
+        "as-29edbf70804699f310c9",
+        "as-3d5145ac6c685d0e4e53",
+        "as-4b5f8398f48850015b3c",
+        "as-51e0f986fd413e0a51df",
+        "as-56e28452c66f7d3418ac",
+        "as-63028a2ccc685896b8b1",
+        "as-6d78db575aac83e0cbba",
+        "as-774fe38c3240066fcddf",
+        "as-78f0222259a672439535",
+        "as-89250ee45f2656b5b845",
+        "as-9352400c526c7cd20a9d",
+        "as-93ab80662f09f3710b8b",
+        "as-9b810b2377c534491160",
+        "as-9bac6d732e4a3453c6d9",
+        "as-9f805fee3cad17efbe43",
+        "as-a643767c6e42add65f46",
+        "as-ace6b0d987b545b67914",
+        "as-af51797bc791a4083dad",
+        "as-be59df1da6b4682e4821",
+        "as-c269b7c1de05a446cf2f",
+        "as-c3bd96ee06a2db54b87e",
+        "as-cf1d6e115c4502032dd6",
+        "as-cfa02471d56a7b789735",
+        "as-dcdb65e5810f12960bef",
+        "as-df230c8372f1e9c19a84",
+        "as-e03b4e047a77a8e30290",
+        "as-e23c3974bde95dcb7afa",
+        "as-e2ea53452f68cef7a15a",
+        "as-e58ec709b58eee30dc0a",
+        "as-e9a1dd834c60993363db",
+        "as-eeda7bd11fa09adba894",
+        "as-f8b698d06ec0e31806de",
+        "as-f8de3942ca1629b9a3f8"
+      ],
+      "from": "b",
+      "to": "c"
+    },
+    "story:story-06": {
+      "all_block_keys": [
+        "encoding-story-06",
+        "household-story-06"
+      ],
+      "all_registered_physical_trial_ids": [
+        "as-00aa77a65efa25963ed5",
+        "as-05b3976166ac62770811",
+        "as-0a22ba1f5368c5d360c8",
+        "as-0d9508d8e08807754e16",
+        "as-23209a2d45e6e58114d7",
+        "as-263d2a8ab42318532cd7",
+        "as-2a7e9ec418a89f013ee1",
+        "as-2ba17331aa37f8ce5f44",
+        "as-353f0763c5d6e15f61c3",
+        "as-3afa661d7209e7d13d27",
+        "as-3c036275d27f9bb1cc3b",
+        "as-56ac483c2be1f144b105",
+        "as-598706d4bd6050684507",
+        "as-61e4fa36133f36e6cbe2",
+        "as-6637c1652e9585f9c5fb",
+        "as-695a88d771b65a6705a7",
+        "as-77f6a2c91a4ca0801986",
+        "as-7df6667bcc861a421be6",
+        "as-7e39022f516cd9fa6758",
+        "as-8284e57c54378bdc5a70",
+        "as-908d54facc50090c398c",
+        "as-93e16e571a4809a86f66",
+        "as-a2faeb9eaac70621606e",
+        "as-ab86ede7814c79de26e4",
+        "as-b156e96b043aba39464f",
+        "as-b1d4d31b9428ea1c5d5d",
+        "as-b510abc6f34dff0e9311",
+        "as-b7918606350e54af7246",
+        "as-c20df2d20eace3e220a2",
+        "as-c47faa58be19f96d2d12",
+        "as-c568658b7bc069d25a23",
+        "as-cb5748c9ece0632aafb6",
+        "as-d0038fce7c76ce686e32",
+        "as-d9efdc2e6a0af038e31f",
+        "as-eea9f5426d3762acbbd4",
+        "as-f60e4566bab768a72513",
+        "as-f72ffabdebc592c1cbef",
+        "as-fe9bb5a1ea41ef050754"
+      ],
+      "from": "b",
+      "to": "c"
+    },
+    "story:story-13": {
+      "all_block_keys": [
+        "encoding-story-13",
+        "household-story-13"
+      ],
+      "all_registered_physical_trial_ids": [
+        "as-02422c5eeb0f57f869e4",
+        "as-0502fd512b7b0ca5fe1c",
+        "as-0f6224260ee416931ba1",
+        "as-126c0179541c9d447f5d",
+        "as-13c77ec54f74da57a577",
+        "as-16d063c0cf3b247eb266",
+        "as-21e970761482c907db09",
+        "as-2951b3962181298508f6",
+        "as-339cddc91f665406d690",
+        "as-44df5b1671434b7bb3bf",
+        "as-47bc602afea061319f64",
+        "as-4ad51aad1802711a762e",
+        "as-500051bdae1f07c1e4df",
+        "as-5324dea44cf673eaccb4",
+        "as-59333ad6c3a66a178784",
+        "as-5bad64b155119d9304b4",
+        "as-5c7dc105b989b629a4e9",
+        "as-6989d0d83b3c96b77bf5",
+        "as-6fa25983a385fb61bcb5",
+        "as-7471404e2ca9afab42f7",
+        "as-79f19cc9a5b1e08280e6",
+        "as-81355de145dd8d83d4fa",
+        "as-8b0cfa7d6eb8380ecd05",
+        "as-8d8d39caabed954e647b",
+        "as-99bb9be64352d198c9f6",
+        "as-a2d8b271100f8867f8cb",
+        "as-a6119b8a74df5ffc6312",
+        "as-a710fbffd4c7ca48f6ca",
+        "as-a9693eadf595f6b69d09",
+        "as-c19559cabf4f539f125f",
+        "as-c1b8698333761a5da395",
+        "as-c3382274389d842e1a7c",
+        "as-e035646ea695ccd0b3a9",
+        "as-e18a0b2d5a45b992bb7d",
+        "as-e3d2a961d62d334ea64c",
+        "as-e57fd1de88bb4f84c138",
+        "as-f3c60d24ea4bf6f1ef2b",
+        "as-f7c156f895bd9b53ce31"
+      ],
+      "from": "b",
+      "to": "c"
+    },
+    "story:story-19": {
+      "all_block_keys": [
+        "encoding-story-19",
+        "household-story-19"
+      ],
+      "all_registered_physical_trial_ids": [
+        "as-0202e3d243c97e9d6c65",
+        "as-18120499dddbad3de3ce",
+        "as-242dff0e6e63f1ce019a",
+        "as-27dbca357b9f07d24c8b",
+        "as-2a08f88af27d2f0d99a6",
+        "as-2a3b8c5bd2b1753ef476",
+        "as-3223807532561441c005",
+        "as-35e96f3fa41ea70566f9",
+        "as-3ed30a2ca0e551ebca4b",
+        "as-4535713d5d48a3dee8a2",
+        "as-4a9e636b89fa39441dc6",
+        "as-4ef76d729b181a91ad9b",
+        "as-553e47ad6af401065560",
+        "as-5a86c3a24fb61cea4b02",
+        "as-5b281a8e966f994fda38",
+        "as-6d37957c7358ca58e267",
+        "as-74818407d2cf8c6e6169",
+        "as-7dc752d871ac95328478",
+        "as-834da19d15ccc3334f65",
+        "as-8e94c41af40fa2a49713",
+        "as-94cf6696da610645c7b6",
+        "as-98bc8fe1a02965092420",
+        "as-b2f9a7b6ff4ac66dd11d",
+        "as-b4f30d0884ebe5df17be",
+        "as-b78b2ea7c4bde405be5d",
+        "as-bafc152d3b63952bf467",
+        "as-beace4f563f04b2fa9b7",
+        "as-c366d23b4b3782210e1f",
+        "as-ddb48e38ace74838ef73",
+        "as-df4ac96c93e396853aa7",
+        "as-df6bf828a3a9f43f9a40",
+        "as-e123fcf2adbab6814836",
+        "as-e369274e562c7b141275",
+        "as-f032d366c0d7891dc389",
+        "as-f3b170105a3d012b15e9",
+        "as-f6face1507210972f796",
+        "as-fb53a7dabc8ecb5ec181",
+        "as-fdb2d2ae19554543ac1f"
+      ],
+      "from": "b",
+      "to": "c"
+    },
+    "story:story-21": {
+      "all_block_keys": [
+        "encoding-story-21",
+        "household-story-21"
+      ],
+      "all_registered_physical_trial_ids": [
+        "as-147e687271094cabbf4e",
+        "as-1cac7976cd71859cd1fe",
+        "as-21378ed3e7f07bfa2a3c",
+        "as-26cbacf6ad66604f37bc",
+        "as-2bc8ca3ae7f40350c3a1",
+        "as-31a2af276d9bede41be3",
+        "as-35f1b3cbb6742e2eaee9",
+        "as-37a72e9ffa3cee16e419",
+        "as-40e941721a2918189681",
+        "as-4e34761aa6ac5118a44d",
+        "as-6029b5cea9c6b1379633",
+        "as-659568dff4c55d0c55f2",
+        "as-676841eba98c7d95d3da",
+        "as-6915d4eaa829de20f5ba",
+        "as-6ab0abccacf5769a4fd7",
+        "as-721976b008f6cd96bd90",
+        "as-805330f5297901a1f5cc",
+        "as-8484b2f3228b2b244dab",
+        "as-8572132a0bacdc574fdb",
+        "as-8d78adbaf38168aec3bf",
+        "as-927aaa111e642b54586f",
+        "as-9403d4b6ebe9f69cb059",
+        "as-9ca536301bb49d7efd47",
+        "as-a244dbe46ea17e76f683",
+        "as-a3f3d5f94846b4c0ec0b",
+        "as-a52684bc5d9ed0713ac0",
+        "as-a5fabc7efe2b324459d7",
+        "as-abb941356c1a1fa578b9",
+        "as-b40e9330b8a0a71a9582",
+        "as-b7b26d85bd9fc83e4247",
+        "as-ca2c700cb17a9a4e7f83",
+        "as-d82768ab2665d6bd3ec7",
+        "as-dce681c193cf1bfb3597",
+        "as-dd88dc1e271e8da8a1dc",
+        "as-eaaefa788c075359b49c",
+        "as-ec985785e0e4c207fb08",
+        "as-f8b1f65d3bb7e8065581",
+        "as-fe5d92c0b20d651dfc28"
+      ],
+      "from": "b",
+      "to": "c"
+    },
+    "story:story-22": {
+      "all_block_keys": [
+        "encoding-story-22",
+        "household-story-22"
+      ],
+      "all_registered_physical_trial_ids": [
+        "as-01f1eef88f4f1d7528ec",
+        "as-0d9281bef953aa45b3f6",
+        "as-1980069c8ed0a5cea606",
+        "as-1b508a1a3b6290891cc8",
+        "as-1f3d9ec23801f335f0db",
+        "as-217a58e1295f073411ae",
+        "as-3578953df31778a9db73",
+        "as-38785a09fb85a6353b56",
+        "as-3cc0768a1f0120f89e89",
+        "as-3d425c769b0f1da3058a",
+        "as-41ee20886acec3f21e35",
+        "as-557fffd295fab581b0a4",
+        "as-5a2ed86d9ab5289d43ca",
+        "as-62318adb972b60669153",
+        "as-6945314ea1a5a57a4427",
+        "as-7ca0189503e538ffe39e",
+        "as-901ac039126a44da1e6e",
+        "as-96714ee51d9b59db6f8f",
+        "as-987b1135e25a86bc7eac",
+        "as-a7295cb59fc6555020ac",
+        "as-b0a6c7abbf59f0a804d8",
+        "as-b150aa4f2e7d3a716c83",
+        "as-b32d871323c177c73670",
+        "as-b46e6698b25fde3c91a7",
+        "as-b6ff6022a25061d6a26f",
+        "as-b8e796632e636cce6ff8",
+        "as-bb08d5120ea71331d377",
+        "as-bd86bf9ca3b51d7c585b",
+        "as-c38819712e1da4d7a74f",
+        "as-cc4c8062b907e8d08f75",
+        "as-cf3fcc02fb194ce74c37",
+        "as-d6195e3ff4b224e83fa5",
+        "as-dbf84cc8066f87fdd658",
+        "as-e42aeface842495bf141",
+        "as-e718f61b3fa3e85d255e",
+        "as-ed9ccbe5d2417754112b",
+        "as-eda1b00ffaec41544f21",
+        "as-ff19f8e1bcb327fa43ee"
+      ],
+      "from": "b",
+      "to": "c"
+    }
+  },
+  "code_sha256": {
+    "blind_balance.py": "e21d02834134448cedc715492f5ca8ac334662efadd3de10e29e8d3a6a911743",
+    "capacity_timing.py": "7955a6d98b8ee3740034a2e77e9ca06748e50132481b9d33824ab96ca0627e85"
+  },
+  "manifest_sha256": "4516192c45ff56feaeef616ef3f798ae5e1c280cc3dc9906a66bc23476499631",
+  "schema": "air-unexposed-cost-only-v1",
+  "scientific_units": "All scored trials of a compound or a story move together across every present and future stage. State captures stay independently pinned to primary. No previously claimed, queued-to-a-physical-node, partially written, completed or uncertain scored group can move.",
+  "selection_trace": [
+    {
+      "group": "compound:660",
+      "new_estimated_core_wall_hours": 24.9421375794623
+    },
+    {
+      "group": "story:story-04",
+      "new_estimated_core_wall_hours": 24.46575295993642
+    },
+    {
+      "group": "story:story-22",
+      "new_estimated_core_wall_hours": 23.98936834041054
+    },
+    {
+      "group": "story:story-06",
+      "new_estimated_core_wall_hours": 23.51298372088465
+    },
+    {
+      "group": "story:story-19",
+      "new_estimated_core_wall_hours": 23.036599101358767
+    },
+    {
+      "group": "story:story-01",
+      "new_estimated_core_wall_hours": 22.560214481832883
+    },
+    {
+      "group": "story:story-13",
+      "new_estimated_core_wall_hours": 22.083829862307
+    },
+    {
+      "group": "story:story-21",
+      "new_estimated_core_wall_hours": 21.607445242781115
+    },
+    {
+      "group": "compound:13216",
+      "new_estimated_core_wall_hours": 21.199115568901792
+    },
+    {
+      "group": "compound:641256",
+      "new_estimated_core_wall_hours": 20.790785895022466
+    }
+  ],
+  "sensitivity": {
+    "1024.0": {
+      "proposed": {
+        "all_if_approved": {
+          "active_hours": 151.88943622483498,
+          "active_hours_by_node": {
+            "b": 67.18463939241306,
+            "c": 62.66372025620723,
+            "primary": 22.041076576214692
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 220.04690749523414,
+          "perfect_overlap_wall_lower_hours": 67.18463939241306,
+          "remaining_trials": {
+            "b": 795,
+            "c": 1593,
+            "primary": 395
+          },
+          "synchronized_phase_schedule_hours": 73.34896916507805,
+          "synchronized_stage_hours": [
+            21.71880795452851,
+            1.0141077644137793,
+            9.972059683402183,
+            18.930011602390607,
+            2.9896062394675145,
+            18.72437592087546
+          ]
+        },
+        "core": {
+          "active_hours": 112.3600106770256,
+          "active_hours_by_node": {
+            "b": 51.63498700473508,
+            "c": 40.94973809586425,
+            "primary": 19.775285576426267
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 154.9049610142052,
+          "perfect_overlap_wall_lower_hours": 51.63498700473508,
+          "remaining_trials": {
+            "b": 611,
+            "c": 1041,
+            "primary": 363
+          },
+          "synchronized_phase_schedule_hours": 51.63498700473508,
+          "synchronized_stage_hours": [
+            21.71880795452851,
+            1.0141077644137793,
+            9.972059683402183,
+            18.930011602390607,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "unchanged": {
+        "all_if_approved": {
+          "active_hours": 169.86791457822457,
+          "active_hours_by_node": {
+            "b": 100.81921357880356,
+            "c": 47.007624423206316,
+            "primary": 22.041076576214692
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 302.45764073641067,
+          "perfect_overlap_wall_lower_hours": 100.81921357880356,
+          "remaining_trials": {
+            "b": 1193,
+            "c": 1195,
+            "primary": 395
+          },
+          "synchronized_phase_schedule_hours": 100.81921357880356,
+          "synchronized_stage_hours": [
+            26.11327493365491,
+            1.0141077644137793,
+            15.211616466206735,
+            27.380909639172142,
+            4.0564310576551135,
+            27.04287371770088
+          ]
+        },
+        "core": {
+          "active_hours": 122.02683069618482,
+          "active_hours_by_node": {
+            "b": 69.71990880344757,
+            "c": 32.53163631631098,
+            "primary": 19.775285576426267
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 209.15972641034273,
+          "perfect_overlap_wall_lower_hours": 69.71990880344757,
+          "remaining_trials": {
+            "b": 825,
+            "c": 827,
+            "primary": 363
+          },
+          "synchronized_phase_schedule_hours": 69.71990880344757,
+          "synchronized_stage_hours": [
+            26.11327493365491,
+            1.0141077644137793,
+            15.211616466206735,
+            27.380909639172142,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "128.0": {
+      "proposed": {
+        "all_if_approved": {
+          "active_hours": 25.4436103420621,
+          "active_hours_by_node": {
+            "b": 9.065396346317359,
+            "c": 9.650177145444381,
+            "primary": 6.728036850300359
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 37.91088336610331,
+          "perfect_overlap_wall_lower_hours": 9.650177145444381,
+          "remaining_trials": {
+            "b": 795,
+            "c": 1593,
+            "primary": 395
+          },
+          "synchronized_phase_schedule_hours": 12.636961122034439,
+          "synchronized_stage_hours": [
+            5.121646756700694,
+            0.1368361712651678,
+            1.4660030566211786,
+            2.568534281022236,
+            0.460397654145492,
+            2.8835432022796708
+          ]
+        },
+        "core": {
+          "active_hours": 19.680236840851098,
+          "active_hours_by_node": {
+            "b": 6.9672417202514545,
+            "c": 6.3062362890192185,
+            "primary": 6.406758831580426
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 27.879060796827826,
+          "perfect_overlap_wall_lower_hours": 6.9672417202514545,
+          "remaining_trials": {
+            "b": 611,
+            "c": 1041,
+            "primary": 363
+          },
+          "synchronized_phase_schedule_hours": 9.293020265609275,
+          "synchronized_stage_hours": [
+            5.121646756700694,
+            0.1368361712651678,
+            1.4660030566211786,
+            2.568534281022236,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "unchanged": {
+        "all_if_approved": {
+          "active_hours": 27.57098020196332,
+          "active_hours_by_node": {
+            "b": 13.603796026612086,
+            "c": 7.239147325050877,
+            "primary": 6.728036850300359
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 45.60573411970413,
+          "perfect_overlap_wall_lower_hours": 13.603796026612086,
+          "remaining_trials": {
+            "b": 1193,
+            "c": 1195,
+            "primary": 395
+          },
+          "synchronized_phase_schedule_hours": 15.201911373234712,
+          "synchronized_stage_hours": [
+            5.121646756700694,
+            0.1368361712651678,
+            2.052542568977515,
+            3.6945766241595273,
+            0.5473446850606708,
+            3.648964567071138
+          ]
+        },
+        "core": {
+          "active_hours": 20.82409902682813,
+          "active_hours_by_node": {
+            "b": 9.407486774480278,
+            "c": 5.009853420767425,
+            "primary": 6.406758831580426
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 33.01680636330871,
+          "perfect_overlap_wall_lower_hours": 9.407486774480278,
+          "remaining_trials": {
+            "b": 825,
+            "c": 827,
+            "primary": 363
+          },
+          "synchronized_phase_schedule_hours": 11.005602121102903,
+          "synchronized_stage_hours": [
+            5.121646756700694,
+            0.1368361712651678,
+            2.052542568977515,
+            3.6945766241595273,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "256.0": {
+      "proposed": {
+        "all_if_approved": {
+          "active_hours": 43.5072997538868,
+          "active_hours_by_node": {
+            "b": 17.368145352902452,
+            "c": 17.223540446981936,
+            "primary": 8.915613954002414
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 58.98255899547594,
+          "perfect_overlap_wall_lower_hours": 17.368145352902452,
+          "remaining_trials": {
+            "b": 795,
+            "c": 1593,
+            "primary": 395
+          },
+          "synchronized_phase_schedule_hours": 19.660852998491983,
+          "synchronized_stage_hours": [
+            5.920286016782398,
+            0.26216068457211233,
+            2.6165077138541295,
+            4.893666112012765,
+            0.8217131663343542,
+            5.146519304936223
+          ]
+        },
+        "core": {
+          "active_hours": 32.92020453173317,
+          "active_hours_by_node": {
+            "b": 13.348348189463401,
+            "c": 11.255307975711359,
+            "primary": 8.31654836655841
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 41.077861581664216,
+          "perfect_overlap_wall_lower_hours": 13.348348189463401,
+          "remaining_trials": {
+            "b": 611,
+            "c": 1041,
+            "primary": 363
+          },
+          "synchronized_phase_schedule_hours": 13.692620527221404,
+          "synchronized_stage_hours": [
+            5.920286016782398,
+            0.26216068457211233,
+            2.6165077138541295,
+            4.893666112012765,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "unchanged": {
+        "all_if_approved": {
+          "active_hours": 47.89911368428646,
+          "active_hours_by_node": {
+            "b": 26.06314139121097,
+            "c": 12.920358339073076,
+            "primary": 8.915613954002414
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 78.1894241736329,
+          "perfect_overlap_wall_lower_hours": 26.06314139121097,
+          "remaining_trials": {
+            "b": 1193,
+            "c": 1195,
+            "primary": 395
+          },
+          "synchronized_phase_schedule_hours": 26.06314139121097,
+          "synchronized_stage_hours": [
+            6.750637627731934,
+            0.26216068457211233,
+            3.9324102685816804,
+            7.078338483447082,
+            1.0486427382884482,
+            6.990951588589709
+          ]
+        },
+        "core": {
+          "active_hours": 35.281632122450574,
+          "active_hours_by_node": {
+            "b": 18.02354706433281,
+            "c": 8.94153669155936,
+            "primary": 8.31654836655841
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 54.07064119299843,
+          "perfect_overlap_wall_lower_hours": 18.02354706433281,
+          "remaining_trials": {
+            "b": 825,
+            "c": 827,
+            "primary": 363
+          },
+          "synchronized_phase_schedule_hours": 18.02354706433281,
+          "synchronized_stage_hours": [
+            6.750637627731934,
+            0.26216068457211233,
+            3.9324102685816804,
+            7.078338483447082,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "318.4054054054054": {
+      "all_still_eligible_B_groups_to_C_cost_floor": {
+        "all_if_approved": {
+          "active_hours": 49.35906902388669,
+          "active_hours_by_node": {
+            "b": 15.65125287253184,
+            "c": 23.72566597850783,
+            "primary": 9.982150172847025
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 75.35930376005945,
+          "perfect_overlap_wall_lower_hours": 23.72566597850783,
+          "remaining_trials": {
+            "b": 581,
+            "c": 1807,
+            "primary": 395
+          },
+          "synchronized_phase_schedule_hours": 25.119767920019815,
+          "synchronized_stage_hours": [
+            6.309656382392334,
+            0.3232616772295732,
+            3.571323268485972,
+            6.092257340358395,
+            1.2604670359362327,
+            7.562802215617308
+          ]
+        },
+        "core": {
+          "active_hours": 38.077238735684496,
+          "active_hours_by_node": {
+            "b": 13.92719059397412,
+            "c": 14.902396726954288,
+            "primary": 9.247651414756087
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 48.88949600539882,
+          "perfect_overlap_wall_lower_hours": 14.902396726954288,
+          "remaining_trials": {
+            "b": 517,
+            "c": 1135,
+            "primary": 363
+          },
+          "synchronized_phase_schedule_hours": 16.296498668466274,
+          "synchronized_stage_hours": [
+            6.309656382392334,
+            0.3232616772295732,
+            3.571323268485972,
+            6.092257340358395,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "proposed": {
+        "all_if_approved": {
+          "active_hours": 52.31411116687295,
+          "active_hours_by_node": {
+            "b": 21.416086116459244,
+            "c": 20.915874877566683,
+            "primary": 9.982150172847025
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 71.12127756671721,
+          "perfect_overlap_wall_lower_hours": 21.416086116459244,
+          "remaining_trials": {
+            "b": 795,
+            "c": 1593,
+            "primary": 395
+          },
+          "synchronized_phase_schedule_hours": 23.70709252223907,
+          "synchronized_stage_hours": [
+            6.923187587333384,
+            0.3232616772295732,
+            3.178739826090797,
+            6.034217974952044,
+            0.9978697367828503,
+            6.249815719850421
+          ]
+        },
+        "core": {
+          "active_hours": 39.375247901295296,
+          "active_hours_by_node": {
+            "b": 16.4594070656058,
+            "c": 13.668189420933412,
+            "primary": 9.247651414756087
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 49.37822119681739,
+          "perfect_overlap_wall_lower_hours": 16.4594070656058,
+          "remaining_trials": {
+            "b": 611,
+            "c": 1041,
+            "primary": 363
+          },
+          "synchronized_phase_schedule_hours": 16.4594070656058,
+          "synchronized_stage_hours": [
+            6.923187587333384,
+            0.3232616772295732,
+            3.178739826090797,
+            6.034217974952044,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "unchanged": {
+        "all_if_approved": {
+          "active_hours": 57.8099372085017,
+          "active_hours_by_node": {
+            "b": 32.13759841124021,
+            "c": 15.69018862441447,
+            "primary": 9.982150172847025
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 96.41279523372063,
+          "perfect_overlap_wall_lower_hours": 32.13759841124021,
+          "remaining_trials": {
+            "b": 1193,
+            "c": 1195,
+            "primary": 395
+          },
+          "synchronized_phase_schedule_hours": 32.13759841124021,
+          "synchronized_stage_hours": [
+            8.323988188661556,
+            0.3232616772295732,
+            4.848925158443592,
+            8.728065285198529,
+            1.2930467089182933,
+            8.62031139278867
+          ]
+        },
+        "core": {
+          "active_hours": 42.33029004428161,
+          "active_hours_by_node": {
+            "b": 22.22424030953325,
+            "c": 10.858398319992276,
+            "primary": 9.247651414756087
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 66.67272092859976,
+          "perfect_overlap_wall_lower_hours": 22.22424030953325,
+          "remaining_trials": {
+            "b": 825,
+            "c": 827,
+            "primary": 363
+          },
+          "synchronized_phase_schedule_hours": 22.22424030953325,
+          "synchronized_stage_hours": [
+            8.323988188661556,
+            0.3232616772295732,
+            4.848925158443592,
+            8.728065285198529,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "405.2894736842105": {
+      "all_still_eligible_B_groups_to_C_cost_floor": {
+        "all_if_approved": {
+          "active_hours": 60.7939111212678,
+          "active_hours_by_node": {
+            "b": 19.769961710324136,
+            "c": 29.556911750259143,
+            "primary": 11.467037660684513
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 94.10172281459123,
+          "perfect_overlap_wall_lower_hours": 29.556911750259143,
+          "remaining_trials": {
+            "b": 581,
+            "c": 1807,
+            "primary": 395
+          },
+          "synchronized_phase_schedule_hours": 31.367240938197074,
+          "synchronized_stage_hours": [
+            7.92840116782363,
+            0.4083296738793279,
+            4.449075814095449,
+            7.589599918162846,
+            1.5702620520336805,
+            9.421572312202139
+          ]
+        },
+        "core": {
+          "active_hours": 46.70126259693859,
+          "active_hours_by_node": {
+            "b": 17.592203449634386,
+            "c": 18.565077386023322,
+            "primary": 10.543981761280877
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 61.12621972188376,
+          "perfect_overlap_wall_lower_hours": 18.565077386023322,
+          "remaining_trials": {
+            "b": 517,
+            "c": 1135,
+            "primary": 363
+          },
+          "synchronized_phase_schedule_hours": 20.37540657396125,
+          "synchronized_stage_hours": [
+            7.92840116782363,
+            0.4083296738793279,
+            4.449075814095449,
+            7.589599918162846,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "proposed": {
+        "all_if_approved": {
+          "active_hours": 64.57541448112406,
+          "active_hours_by_node": {
+            "b": 27.05184089450549,
+            "c": 26.05653592593405,
+            "primary": 11.467037660684513
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 89.45937808264857,
+          "perfect_overlap_wall_lower_hours": 27.05184089450549,
+          "remaining_trials": {
+            "b": 795,
+            "c": 1593,
+            "primary": 395
+          },
+          "synchronized_phase_schedule_hours": 29.81979269421619,
+          "synchronized_stage_hours": [
+            8.745060515582292,
+            0.4083296738793279,
+            4.015241793146714,
+            7.622153912414132,
+            1.2431241245266653,
+            7.785882674667058
+          ]
+        },
+        "core": {
+          "active_hours": 48.36229678304367,
+          "active_hours_by_node": {
+            "b": 20.790785895022466,
+            "c": 17.027529126740326,
+            "primary": 10.543981761280877
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 62.3723576850674,
+          "perfect_overlap_wall_lower_hours": 20.790785895022466,
+          "remaining_trials": {
+            "b": 611,
+            "c": 1041,
+            "primary": 363
+          },
+          "synchronized_phase_schedule_hours": 20.790785895022466,
+          "synchronized_stage_hours": [
+            8.745060515582292,
+            0.4083296738793279,
+            4.015241793146714,
+            7.622153912414132,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "unchanged": {
+        "all_if_approved": {
+          "active_hours": 71.60830390739866,
+          "active_hours_by_node": {
+            "b": 40.59477507816981,
+            "c": 19.54649116854435,
+            "primary": 11.467037660684513
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 121.78432523450944,
+          "perfect_overlap_wall_lower_hours": 40.59477507816981,
+          "remaining_trials": {
+            "b": 1193,
+            "c": 1195,
+            "primary": 395
+          },
+          "synchronized_phase_schedule_hours": 40.59477507816981,
+          "synchronized_stage_hours": [
+            10.514489102392686,
+            0.4083296738793279,
+            6.124945108189918,
+            11.024901194741835,
+            1.6333186955173125,
+            10.888791303448729
+          ]
+        },
+        "core": {
+          "active_hours": 52.14380014289985,
+          "active_hours_by_node": {
+            "b": 28.072665079203766,
+            "c": 13.527153302415208,
+            "primary": 10.543981761280877
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 84.2179952376113,
+          "perfect_overlap_wall_lower_hours": 28.072665079203766,
+          "remaining_trials": {
+            "b": 825,
+            "c": 827,
+            "primary": 363
+          },
+          "synchronized_phase_schedule_hours": 28.072665079203766,
+          "synchronized_stage_hours": [
+            10.514489102392686,
+            0.4083296738793279,
+            6.124945108189918,
+            11.024901194741835,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "512.0": {
+      "proposed": {
+        "all_if_approved": {
+          "active_hours": 79.63467857753639,
+          "active_hours_by_node": {
+            "b": 33.97364336607272,
+            "c": 32.37026705005715,
+            "primary": 13.290768161406524
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 111.98213048654632,
+          "perfect_overlap_wall_lower_hours": 33.97364336607272,
+          "remaining_trials": {
+            "b": 795,
+            "c": 1593,
+            "primary": 395
+          },
+          "synchronized_phase_schedule_hours": 37.32737682884878,
+          "synchronized_stage_hours": [
+            10.982674647900257,
+            0.5128097111860014,
+            5.042628826662347,
+            9.572447942138739,
+            1.5443441907120745,
+            9.67247151024935
+          ]
+        },
+        "core": {
+          "active_hours": 59.400139913497455,
+          "active_hours_by_node": {
+            "b": 26.110561127887344,
+            "c": 21.15345134909573,
+            "primary": 12.13612743651438
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 78.33168338366204,
+          "perfect_overlap_wall_lower_hours": 26.110561127887344,
+          "remaining_trials": {
+            "b": 611,
+            "c": 1041,
+            "primary": 363
+          },
+          "synchronized_phase_schedule_hours": 26.110561127887344,
+          "synchronized_stage_hours": [
+            10.982674647900257,
+            0.5128097111860014,
+            5.042628826662347,
+            9.572447942138739,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "unchanged": {
+        "all_if_approved": {
+          "active_hours": 88.55538064893264,
+          "active_hours_by_node": {
+            "b": 50.98183212040859,
+            "c": 24.282780367117528,
+            "primary": 13.290768161406524
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 152.94549636122576,
+          "perfect_overlap_wall_lower_hours": 50.98183212040859,
+          "remaining_trials": {
+            "b": 1193,
+            "c": 1195,
+            "primary": 395
+          },
+          "synchronized_phase_schedule_hours": 50.98183212040859,
+          "synchronized_stage_hours": [
+            13.20485006303962,
+            0.5128097111860014,
+            7.692145667790048,
+            13.84586220202213,
+            2.0512388447440033,
+            13.674925631626794
+          ]
+        },
+        "core": {
+          "active_hours": 64.19669831369544,
+          "active_hours_by_node": {
+            "b": 35.2556676440378,
+            "c": 16.804903233143257,
+            "primary": 12.13612743651438
+          },
+          "all_three_warm_hours_through_synchronized_schedule": 105.76700293211339,
+          "perfect_overlap_wall_lower_hours": 35.2556676440378,
+          "remaining_trials": {
+            "b": 825,
+            "c": 827,
+            "primary": 363
+          },
+          "synchronized_phase_schedule_hours": 35.2556676440378,
+          "synchronized_stage_hours": [
+            13.20485006303962,
+            0.5128097111860014,
+            7.692145667790048,
+            13.84586220202213,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  },
+  "snapshot_event": 257,
+  "snapshot_file": "timing-c9b7db0768ddd5d5db7de60e4d5161a09e8a2f2fe0f8137f07343b5d3ab4a6be.json",
+  "snapshot_sha256": "c9b7db0768ddd5d5db7de60e4d5161a09e8a2f2fe0f8137f07343b5d3ab4a6be",
+  "snapshot_utc": "2026-11-22T06:25:40.775905+00:00",
+  "uncertainty": "Scenario seconds assume fixed measured rates and stage lengths; small, completed-only length sample, uncapped future reasoning, unknown future task type and review/queue/teardown delays preclude a finite empirical upper bound. The all-warm node-hour estimate differs from minimum active compute. No stopping or scope reduction follows from this forecast."
+}

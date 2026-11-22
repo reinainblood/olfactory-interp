@@ -1,0 +1,24 @@
+{
+  "scope": "temporary SQLite and synthetic timings only",
+  "checks": 18,
+  "cases": [
+    "proposal and signature do not mutate the queue",
+    "equal frozen inputs yield identical deterministic proposal",
+    "hand-edited signed subset fails independent selection reconstruction",
+    "all and only signed B-to-C block keys moved",
+    "every trial, spec, seed mapping and queue state preserved",
+    "primary state blocks remain on their original node",
+    "future stages pre-pinned as a group",
+    "reapplying is idempotent with one audit event",
+    "claim-after-snapshot refuses the entire application",
+    "claim-after-snapshot leaves every original assignment intact",
+    "raw-reserved refuses the entire application",
+    "raw-reserved leaves every original assignment intact",
+    "timing-quiet refuses the entire application",
+    "timing-quiet leaves every original assignment intact",
+    "welfare-hold refuses the entire application",
+    "welfare-hold leaves every original assignment intact",
+    "post-release refuses the entire application",
+    "post-release leaves every original assignment intact"
+  ]
+}

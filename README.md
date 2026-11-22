@@ -1,6 +1,6 @@
 # What the air remembers
 
-**Native calibration has finished on all three nodes. Scientific qualification is underway.** The pre-exposure report is a preserved historical snapshot. Scientific outcome estimates will be posted after the registered evidence and review gates.
+**All three nodes passed calibration. Kimi passed all 12 scientific qualification prompts. Collection of ordinary state and reference data is underway.** The pre-exposure report is a preserved historical snapshot. Scientific outcome estimates will be posted after the registered evidence and review gates.
 
 Kirsten Ruge’s independent Hive Fidelity research asks whether a hidden cue synthesized from Kimi K3.1 Pro’s own odor-similarity judgments can recover decisions about an unnamed sample and retrieve an arbitrary detail from a recent household episode. The fixed checkpoint is `moonshotai/Kimi-K3.1-Pro` at `d9e99b0792a5e93b78ea9bea62a68167e36ddd9e`. Study execution uses maximum reasoning effort, temperature 1, and natural generation without an application output-token cap.
 
@@ -29,3 +29,9 @@ The checkpoint and its license are maintained by Moonshot AI. [Official model ca
 ## What one coordinate changed
 
 On the vanillin acetate calibration prompt, Kimi chose eugenol after 314 emitted tokens. At the same seed, changing one coordinate at layer 47 by a single BF16 step led to a whiskey lactone choice after 2,146 tokens. The first token disagreement came at output token ten. Clean and zero-write controls matched exactly. All three machines reproduced both trajectories. The second named compound kept its final choice under its one-step edit. These two examples test sensitivity to an arbitrary numerical change. Odor selectivity requires the held-out scientific comparisons. [Paired per-node measurements](analysis/native-qualification/trajectory-sensitivity.json) · [Native parity receipt](analysis/native-qualification/source-parity.json)
+
+The twelve explicit controls each yielded the correct sampled choice and an A−B score favoring that choice at the first natural answer position. The median A+B probability was 0.99999815. [Scientific qualification](analysis/native-qualification/scientific-h0.json)
+
+Before the first hidden odor write, we registered a supplementary comparison of the token at which matched reasoning histories diverge. Its unit is the molecule. The original primary endpoint stays fixed. [First-divergence registration](protocol/trajectory-registration.md)
+
+An outcome-blind scheduling amendment assigned ten whole, previously untouched groups to the faster of two parity-qualified recorders. An independent audit verified every earlier assignment and the full input manifest. [Assignment audit](protocol/scheduling/20261122T062628-post-application-audit.json)

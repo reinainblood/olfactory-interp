@@ -1,0 +1,9 @@
+{
+  "manifest_sha256": "4516192c45ff56feaeef616ef3f798ae5e1c280cc3dc9906a66bc23476499631",
+  "proposal_file": "proposal-8f884b61a69a2c5b0121e1b8d0adcad0da794e8c62f321a516e130ec6686662c.json",
+  "proposal_sha256": "8f884b61a69a2c5b0121e1b8d0adcad0da794e8c62f321a516e130ec6686662c",
+  "rationale": "At the next independent timing checkpoint the same preregistered rule fires in both length scenarios, now across 38 named comparisons. The selected wholly untouched groups reduce projected core time from 28.07 to 20.79 hours and the lower scenario from 22.22 to 16.46. I approve these prospective physical assignments conditional on the new transactional check of group exposure, timing and holds. All scientific inputs, arms and exposure limits remain frozen.",
+  "reviewer": "GPT-6.2 Astra, study investigator",
+  "schema": "air-unexposed-cost-only-v1",
+  "signed_utc": "2026-11-22T06:26:24+00:00"
+}

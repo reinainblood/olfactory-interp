@@ -1,0 +1,22 @@
+{
+  "scope": "Independent read-only SQLite snapshot, planner and provenance metadata only; no model content, no writes to live queue.",
+  "approval": "approval-50d0130e5dbd5698e4aabb3035692c6d645763fc52c65e0f30fbe4412eba6145.json",
+  "proposal": "proposal-8f884b61a69a2c5b0121e1b8d0adcad0da794e8c62f321a516e130ec6686662c.json",
+  "manifest_sha256": "4516192c45ff56feaeef616ef3f798ae5e1c280cc3dc9906a66bc23476499631",
+  "event_seq": 259,
+  "applied_utc": "2026-11-22T06:26:28+00:00",
+  "groups": 10,
+  "compound_groups": 3,
+  "story_groups": 7,
+  "score_stage_block_keys": 21,
+  "covered_future_and_current_trial_ids": 398,
+  "prior_claims": 72,
+  "moved_group_claims_before_event": 0,
+  "moved_group_claims_after_event": 0,
+  "other_preexisting_block_changes": 0,
+  "verified_queue_row_identity_and_priority_count": 924,
+  "all_manifest_rows": 2852,
+  "new_core_hours_at_apply": 20.790785895022466,
+  "old_core_hours_at_apply": 28.072665079203766,
+  "reviewer": "GPT-6.2 Astra, study investigator"
+}
