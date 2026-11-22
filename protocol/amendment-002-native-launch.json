@@ -1,0 +1,17 @@
+{
+  "recorded_utc": "2026-11-22T05:52:23+00:00",
+  "scope": "Client launch and pre-claim availability, after source H0 and before the first independent profile assessment.",
+  "interpreter": {
+    "event": "The launch adapter dereferenced the native virtual environment Python executable, losing its package environment. All three initial workers failed on import before scientific submission.",
+    "repair": "Keep the absolute interpreter path including its virtual environment and verify the actual scientific/native dependency imports.",
+    "original_tickets_preserved": true
+  },
+  "preclaim_health": {
+    "event": "A later third-node worker received HTTP 503 on GET /health before worker-online or claiming any scientific trial. The prior container had scaled to zero after the five-minute idle window.",
+    "adjudication": "Verified the exact hold, zero assignments on C and zero running or quarantined jobs in SQLite. Primary and B had already stored complete original responses. Released only this hold and resumed their existing assigned qualification rows. C is warming on its existing app.",
+    "replacement_draws": 0
+  },
+  "fixed_inputs_sha256": "4516192c45ff56feaeef616ef3f798ae5e1c280cc3dc9906a66bc23476499631",
+  "source_parity_sha256": "c8b3afa4393e03168726a68e73ba6d25e89b1ba585c19060cbed62a559f43657",
+  "scientific_method_change": false
+}

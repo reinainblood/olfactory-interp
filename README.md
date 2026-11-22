@@ -1,6 +1,6 @@
 # What the air remembers
 
-**Status: prospective native qualification has begun after signed Phase 0.** The pre-exposure report is a preserved historical snapshot. Scientific outcome estimates will be posted after the registered evidence and review gates.
+**Native calibration has finished on all three nodes. Scientific qualification is underway.** The pre-exposure report is a preserved historical snapshot. Scientific outcome estimates will be posted after the registered evidence and review gates.
 
 Kirsten Ruge’s independent Hive Fidelity research asks whether a hidden cue synthesized from Kimi K3.1 Pro’s own odor-similarity judgments can recover decisions about an unnamed sample and retrieve an arbitrary detail from a recent household episode. The fixed checkpoint is `moonshotai/Kimi-K3.1-Pro` at `d9e99b0792a5e93b78ea9bea62a68167e36ddd9e`. Study execution uses maximum reasoning effort, temperature 1, and natural generation without an application output-token cap.
 
@@ -25,3 +25,7 @@ The [human split-half analysis](analysis/phase0-human/human-reliability.json) me
 The checkpoint and its license are maintained by Moonshot AI. [Official model card](https://huggingface.co/moonshotai/Kimi-K3.1-Pro) · [Kimi K3.1-Pro License](https://huggingface.co/moonshotai/Kimi-K3.1-Pro/blob/main/LICENSE). This dataset contains study inputs and measurements; it does not redistribute checkpoint weights.
 
 [Signed Phase 0 acknowledgment](phase0/acknowledgment-completed.md) · [measured review record](phase0/completion.json) · [terminal observer result](phase0/live-observer-run/results.json).
+
+## What one coordinate changed
+
+On the vanillin acetate calibration prompt, Kimi chose eugenol after 314 emitted tokens. At the same seed, changing one coordinate at layer 47 by a single BF16 step led to a whiskey lactone choice after 2,146 tokens. The first token disagreement came at output token ten. Clean and zero-write controls matched exactly. All three machines reproduced both trajectories. The second named compound kept its final choice under its one-step edit. These two examples test sensitivity to an arbitrary numerical change. Odor selectivity requires the held-out scientific comparisons. [Paired per-node measurements](analysis/native-qualification/trajectory-sensitivity.json) · [Native parity receipt](analysis/native-qualification/source-parity.json)
