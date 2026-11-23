@@ -1,4 +1,6 @@
-# What the air remembers
+# Olfactory representations in Kimi K3.1 Pro
+
+This repository holds the frozen inputs, registration, data and reports for the study. It was first published as "What the air remembers", and the dated reports keep that title. Project page: https://hivefidelity.ai/kimi-smell/
 
 [Read the privacy-edited field notebook](reports/shared-notebook/README.md) · [Download the editable research snapshot](reports/shared-notebook/what-the-air-remembers-editable-notebook.zip?raw=1)
 
@@ -36,7 +38,7 @@ The checkpoint and its license are maintained by Moonshot AI. [Official model ca
 
 On the vanillin acetate calibration prompt, Kimi chose eugenol after 314 emitted tokens. At the same seed, changing one coordinate at layer 47 by a single BF16 step led to a whiskey lactone choice after 2,146 tokens. The first token disagreement came at output token ten. Clean and zero-write controls matched exactly. All three machines reproduced both trajectories. The second named compound kept its final choice under its one-step edit. These two examples test sensitivity to an arbitrary numerical change. Odor selectivity requires the held-out scientific comparisons. [Paired per-node measurements](analysis/native-qualification/trajectory-sensitivity.json) · [Native parity receipt](analysis/native-qualification/source-parity.json)
 
-The twelve explicit controls each yielded the correct sampled choice and an A−B score favoring that choice at the first natural answer position. The median A+B probability was 0.99999815. [Scientific qualification](analysis/native-qualification/scientific-h0.json) · [Download all 30 native calibration and answer-control records](https://github.com/kirstenruge-ship-it/what-the-air-remembers/releases/tag/native-qualification-public-v2)
+The twelve explicit controls each yielded the correct sampled choice and an A−B score favoring that choice at the first natural answer position. The median A+B probability was 0.99999815. [Scientific qualification](analysis/native-qualification/scientific-h0.json) · [Download all 30 native calibration and answer-control records](https://github.com/reinainblood/olfactory-interp/releases/tag/native-qualification-public-v2)
 
 Before the first hidden odor write, we registered a supplementary comparison of the token at which matched reasoning histories diverge. Its unit is the molecule. The original primary endpoint stays fixed. [First-divergence registration](protocol/trajectory-registration.md)
 
@@ -48,7 +50,7 @@ The first 200 completed scientific trials yielded 100,629 emitted tokens. The fi
 
 ## Can another name retrieve the same compound?
 
-Across 24 fitting compounds, the odor-minus-printed-name activation retrieved the correct alternate name in 10, 12, and 13 of 48 reciprocal queries at layers 23, 47, and 71. Random matching averages two. Spelling alone recovered 35. At every layer, the activation contrast recovered one query spelling missed, the same direction from methyl octanoate to methyl caprylate. This secondary analysis measures identity in ordinary named prompts. The causal study tests whether an unnamed odor-quality intervention can steer a decision. [Measured results and controls](reports/fit-aliases/measured-results.md) · [96 native records, exact activations, code and offline field note](https://github.com/kirstenruge-ship-it/what-the-air-remembers/releases/tag/fit-cross-alias-public-v2)
+Across 24 fitting compounds, the odor-minus-printed-name activation retrieved the correct alternate name in 10, 12, and 13 of 48 reciprocal queries at layers 23, 47, and 71. Random matching averages two. Spelling alone recovered 35. At every layer, the activation contrast recovered one query spelling missed, the same direction from methyl octanoate to methyl caprylate. This secondary analysis measures identity in ordinary named prompts. The causal study tests whether an unnamed odor-quality intervention can steer a decision. [Measured results and controls](reports/fit-aliases/measured-results.md) · [96 native records, exact activations, code and offline field note](https://github.com/reinainblood/olfactory-interp/releases/tag/fit-cross-alias-public-v2)
 
 ## Verifying the public research data
 

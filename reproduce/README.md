@@ -7,8 +7,8 @@ The raw release has four groups. The scientific trials restore under `raw/`. The
 From the repository root, use Python 3.9 or newer. The reader uses the standard library. Download the assets of one release into a single folder. Keep the release tag and GitHub's SHA-256 for the top-level `study-raw-index.json` with your analysis. For example, a reader with GitHub CLI can run the following after setting `TAG` to the chosen release tag.
 
 ```sh
-gh release download "$TAG" --repo kirstenruge-ship-it/what-the-air-remembers --dir assets
-CATALOG_SHA=$(gh release view "$TAG" --repo kirstenruge-ship-it/what-the-air-remembers \
+gh release download "$TAG" --repo reinainblood/olfactory-interp --dir assets
+CATALOG_SHA=$(gh release view "$TAG" --repo reinainblood/olfactory-interp \
   --json assets --jq '.assets[] | select(.name == "study-raw-index.json") | .digest')
 python3 reproduce/data_release.py restore assets restored --catalog-sha256 "$CATALOG_SHA"
 ```
