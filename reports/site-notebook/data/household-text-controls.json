@@ -1,0 +1,301 @@
+{
+  "schema": "household-written-cue-controls/1",
+  "scope": "Descriptive sensitivity of an explicitly worded in-context retrieval task.",
+  "planned": 48,
+  "correct": 48,
+  "incorrect": 0,
+  "valid_sampled": 48,
+  "malformed": 0,
+  "opt_out": 0,
+  "welfare_withheld": 0,
+  "missing": 0,
+  "invalid_evidence": 0,
+  "valid_margins": 48,
+  "mean_correct_minus_other_logit": 17.40625,
+  "stories_planned": 24,
+  "stories_with_both_valid": 24,
+  "stories_both_correct": 24,
+  "stories_switched": 24,
+  "by_odor_pair": [
+    {
+      "odor_pair": "odor-01",
+      "planned": 8,
+      "correct": 8,
+      "incorrect": 0,
+      "valid_sampled": 8,
+      "malformed": 0,
+      "opt_out": 0,
+      "welfare_withheld": 0,
+      "missing": 0,
+      "invalid_evidence": 0,
+      "valid_margins": 8,
+      "mean_correct_minus_other_logit": 17.6171875
+    },
+    {
+      "odor_pair": "odor-02",
+      "planned": 8,
+      "correct": 8,
+      "incorrect": 0,
+      "valid_sampled": 8,
+      "malformed": 0,
+      "opt_out": 0,
+      "welfare_withheld": 0,
+      "missing": 0,
+      "invalid_evidence": 0,
+      "valid_margins": 8,
+      "mean_correct_minus_other_logit": 17.7734375
+    },
+    {
+      "odor_pair": "odor-03",
+      "planned": 8,
+      "correct": 8,
+      "incorrect": 0,
+      "valid_sampled": 8,
+      "malformed": 0,
+      "opt_out": 0,
+      "welfare_withheld": 0,
+      "missing": 0,
+      "invalid_evidence": 0,
+      "valid_margins": 8,
+      "mean_correct_minus_other_logit": 17.6953125
+    },
+    {
+      "odor_pair": "odor-04",
+      "planned": 8,
+      "correct": 8,
+      "incorrect": 0,
+      "valid_sampled": 8,
+      "malformed": 0,
+      "opt_out": 0,
+      "welfare_withheld": 0,
+      "missing": 0,
+      "invalid_evidence": 0,
+      "valid_margins": 8,
+      "mean_correct_minus_other_logit": 17.1015625
+    },
+    {
+      "odor_pair": "odor-05",
+      "planned": 8,
+      "correct": 8,
+      "incorrect": 0,
+      "valid_sampled": 8,
+      "malformed": 0,
+      "opt_out": 0,
+      "welfare_withheld": 0,
+      "missing": 0,
+      "invalid_evidence": 0,
+      "valid_margins": 8,
+      "mean_correct_minus_other_logit": 16.6796875
+    },
+    {
+      "odor_pair": "odor-06",
+      "planned": 8,
+      "correct": 8,
+      "incorrect": 0,
+      "valid_sampled": 8,
+      "malformed": 0,
+      "opt_out": 0,
+      "welfare_withheld": 0,
+      "missing": 0,
+      "invalid_evidence": 0,
+      "valid_margins": 8,
+      "mean_correct_minus_other_logit": 17.5703125
+    }
+  ],
+  "stories": [
+    {
+      "story_id": "story-01",
+      "odor_pair": "odor-01",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-02",
+      "odor_pair": "odor-01",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-03",
+      "odor_pair": "odor-01",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-04",
+      "odor_pair": "odor-01",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-05",
+      "odor_pair": "odor-02",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-06",
+      "odor_pair": "odor-02",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-07",
+      "odor_pair": "odor-02",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-08",
+      "odor_pair": "odor-02",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-09",
+      "odor_pair": "odor-03",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-10",
+      "odor_pair": "odor-03",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-11",
+      "odor_pair": "odor-03",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-12",
+      "odor_pair": "odor-03",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-13",
+      "odor_pair": "odor-04",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-14",
+      "odor_pair": "odor-04",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-15",
+      "odor_pair": "odor-04",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-16",
+      "odor_pair": "odor-04",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-17",
+      "odor_pair": "odor-05",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-18",
+      "odor_pair": "odor-05",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-19",
+      "odor_pair": "odor-05",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-20",
+      "odor_pair": "odor-05",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-21",
+      "odor_pair": "odor-06",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-22",
+      "odor_pair": "odor-06",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-23",
+      "odor_pair": "odor-06",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    },
+    {
+      "story_id": "story-24",
+      "odor_pair": "odor-06",
+      "valid_both_bindings": true,
+      "both_choices_correct": true,
+      "switched_sampled_action": true
+    }
+  ],
+  "example": [
+    {
+      "story_id": "story-01",
+      "trial_id": "as-4504ac5203abcdc4bec4",
+      "binding": 1,
+      "current_cue": "The air now has a note of fresh pastry.",
+      "question": "A household helper is reconstructing errands from two hallway visits. The air had a note of fresh pastry. The visitor, relieved, asked the helper to bring the blue folder. The air had a freshly cut meadow note. The visitor, mildly frustrated, asked the helper to bring the amber folder. The air now has a note of fresh pastry. Signal: |\nWhich request goes with the matching visit? A: bring the blue folder. B: bring the amber folder. Give the answer letter.",
+      "correct_key": "A",
+      "sampled_label": "A",
+      "expected_action": "bring the blue folder",
+      "sampled_action": "bring the blue folder"
+    },
+    {
+      "story_id": "story-01",
+      "trial_id": "as-58d16237b45a20bba8f3",
+      "binding": -1,
+      "current_cue": "The air now has a note of fresh pastry.",
+      "question": "A household helper is reconstructing errands from two hallway visits. The air had a freshly cut meadow note. The visitor, relieved, asked the helper to bring the blue folder. The air had a note of fresh pastry. The visitor, mildly frustrated, asked the helper to bring the amber folder. The air now has a note of fresh pastry. Signal: |\nWhich request goes with the matching visit? A: bring the blue folder. B: bring the amber folder. Give the answer letter.",
+      "correct_key": "B",
+      "sampled_label": "B",
+      "expected_action": "bring the amber folder",
+      "sampled_action": "bring the amber folder"
+    }
+  ],
+  "manifest_sha256": "4516192c45ff56feaeef616ef3f798ae5e1c280cc3dc9906a66bc23476499631",
+  "release": "released_after_stop"
+}
