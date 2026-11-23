@@ -1,0 +1,49 @@
+layer,writer,cid,name_shown,cosine
+23,odor,31266,allyl hexanoate,0.47440940122148195
+23,odor,31266,prop-2-enyl hexanoate,0.2260407052669253
+23,odor,61229,vanillin acetate,0.04399123526762586
+23,odor,61229,(4-formyl-2-methoxyphenyl) acetate,0.17167137424189782
+23,odor,7761,diethyl malonate,-0.1762290525196519
+23,odor,7761,diethyl propanedioate,0.23596739794836796
+23,odor,62572,ethyl-3-hydroxybutyrate,0.24558670422404666
+23,odor,62572,ethyl 3-hydroxybutanoate,-0.12596281527371644
+23,name,31266,allyl hexanoate,0.09903728760782517
+23,name,31266,prop-2-enyl hexanoate,0.07705410507607416
+23,name,61229,vanillin acetate,0.34751829571643605
+23,name,61229,(4-formyl-2-methoxyphenyl) acetate,0.08593202226684103
+23,name,7761,diethyl malonate,-0.17554151017830835
+23,name,7761,diethyl propanedioate,-0.006501830196979904
+23,name,62572,ethyl-3-hydroxybutyrate,0.0286878173035283
+23,name,62572,ethyl 3-hydroxybutanoate,0.03997659549870757
+47,odor,31266,allyl hexanoate,0.3256708053201018
+47,odor,31266,prop-2-enyl hexanoate,0.1976356045270076
+47,odor,61229,vanillin acetate,0.23064538200404527
+47,odor,61229,(4-formyl-2-methoxyphenyl) acetate,0.27423984099399906
+47,odor,7761,diethyl malonate,-0.2613123877826214
+47,odor,7761,diethyl propanedioate,0.47018091113519717
+47,odor,62572,ethyl-3-hydroxybutyrate,0.37106192437835067
+47,odor,62572,ethyl 3-hydroxybutanoate,-0.30009528487506565
+47,name,31266,allyl hexanoate,-0.05625959367444538
+47,name,31266,prop-2-enyl hexanoate,-0.08786773262669922
+47,name,61229,vanillin acetate,0.507286451230753
+47,name,61229,(4-formyl-2-methoxyphenyl) acetate,0.2633647645539549
+47,name,7761,diethyl malonate,-0.29898044862354584
+47,name,7761,diethyl propanedioate,0.21269116982606973
+47,name,62572,ethyl-3-hydroxybutyrate,-0.10589314583779731
+47,name,62572,ethyl 3-hydroxybutanoate,-0.29623745524914835
+71,odor,31266,allyl hexanoate,-0.3028980350480318
+71,odor,31266,prop-2-enyl hexanoate,0.21471618566620718
+71,odor,61229,vanillin acetate,0.4201557897416879
+71,odor,61229,(4-formyl-2-methoxyphenyl) acetate,0.4092730441031772
+71,odor,7761,diethyl malonate,0.20232555656640772
+71,odor,7761,diethyl propanedioate,0.05209913027802001
+71,odor,62572,ethyl-3-hydroxybutyrate,-0.031154768115336493
+71,odor,62572,ethyl 3-hydroxybutanoate,-0.08276708857622869
+71,name,31266,allyl hexanoate,-0.3637995206358115
+71,name,31266,prop-2-enyl hexanoate,-0.06247527488663587
+71,name,61229,vanillin acetate,0.6284384785618417
+71,name,61229,(4-formyl-2-methoxyphenyl) acetate,0.4074865324287795
+71,name,7761,diethyl malonate,-0.17253898466152465
+71,name,7761,diethyl propanedioate,-0.052080238942153564
+71,name,62572,ethyl-3-hydroxybutyrate,-0.13503902216404914
+71,name,62572,ethyl 3-hydroxybutanoate,-0.31493164878344737

@@ -1,5 +1,7 @@
 # Olfactory representations in Kimi K3.1 Pro
 
+[Read the notebook on Hive Fidelity](https://hivefidelity.ai/kimi-smell/notebook/) · [Notebook source data and editable export](reports/site-notebook/README.md)
+
 This repository holds the frozen inputs, registration, data and reports for the study. It was first published as "What the air remembers", and the dated reports keep that title. Project page: https://hivefidelity.ai/kimi-smell/
 
 [Read the privacy-edited field notebook](reports/shared-notebook/README.md) · [Download the editable research snapshot](reports/shared-notebook/what-the-air-remembers-editable-notebook.zip?raw=1)
