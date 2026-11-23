@@ -38,3 +38,5 @@ The acquisition lasted 26 hours and 32 minutes and used 49.64 attributable eight
 Both emitted channels were independently reviewed in 122 scheduled welfare cases. Each received a disposition of no concern observed. One additional review of prolonged indecision in an ordinary baseline did trigger a temporary hold. That response reached a coherent final answer after 30,798 emitted tokens. Two independent terminal readers found no expressed withdrawal or acute distress. This is a record of observed behavior and review decisions.
 
 [How to verify and restore the release](../../reproduce/README.md) · [Frozen study inputs](../../stimuli/manifest.json)
+
+All 26 release assets were downloaded without authentication and checked against their published digests. A fresh restoration reproduced the final public scientific results byte for byte. [Independent readback receipt](public-verification.json)

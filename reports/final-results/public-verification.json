@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-23T06:20:26.738986+00:00",
+  "release": "https://github.com/reinainblood/olfactory-interp/releases/tag/native-study-v1",
+  "unauthenticated": true,
+  "catalog_sha256": "e269b7b48021558b2d155e075dbb7e6e5756a108300333211b2e5146f2a91197",
+  "total_downloaded_bytes": 778639486,
+  "restored_groups": {
+    "qual-b": 6,
+    "qual-c": 6,
+    "qual-primary": 6,
+    "scientific": 1068
+  },
+  "completed": 1068,
+  "native_matches_panel": 28,
+  "ordinary_preferences": 48,
+  "all_final_replay_checks_passed": true,
+  "offline_check_receipt_sha256": "e6bbae225b7ecd04fe068673e0bd694d44a05c8948a123d19ff74884363e0a23",
+  "public_recomputed_results_sha256": "598165e4d0d098637a2e4828315d1bb182d615a94fdf73a2a1d617edac1ccf97",
+  "verified_asset_count": 26
+}
