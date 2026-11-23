@@ -16,7 +16,7 @@ The primary superiority label requires a lower 95% family-cluster interval above
 
 ## Running and freezing the analysis
 
-The CPU environment used for this analysis is the project’s RoboSWE-365 Python environment with NumPy, SciPy and pandas. Every CLI below uses the frozen `research/stimuli/trials.jsonl` and reads immutable natural-generation artifacts from `research/raw/TRIAL_ID/`. `--stimuli`, `--raw` and `--work` are global switches and precede the subcommand.
+The CPU environment used for this analysis is Python with NumPy, SciPy and pandas. Every CLI below uses the frozen `research/stimuli/trials.jsonl` and reads immutable natural-generation artifacts from `research/raw/TRIAL_ID/`. `--stimuli`, `--raw` and `--work` are global switches and precede the subcommand.
 
 ```sh
 python -B research/science.py count

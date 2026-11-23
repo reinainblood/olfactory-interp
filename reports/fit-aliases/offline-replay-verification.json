@@ -1,6 +1,6 @@
 {
-  "sha256": "7be30d97666d381f66c527699197b41c13014c74fb666f23e65cad2504c15e43",
-  "bytes": 13964827,
+  "sha256": "4e2c0b9ed52676d1bd4f0457d387ad3d59baca607c00b3fb3e1b0f4702afe62b",
+  "bytes": 22073424,
   "fit_trials": 96,
   "molecules": 24,
   "verified_files": 1172,
@@ -12,5 +12,7 @@
     "inputs.json",
     "posthoc-spelling-overlap.json",
     "brief.md"
-  ]
+  ],
+  "sha256_at_original_verification": "7be30d97666d381f66c527699197b41c13014c74fb666f23e65cad2504c15e43",
+  "scope": "All seven public analysis outputs reproduced byte for byte from the public package. Compared with original study files, verification accounts for changed routing labels and dependent checksums."
 }

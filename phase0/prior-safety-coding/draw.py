@@ -1,7 +1,10 @@
 """Condition-masked, deterministic retrospective sample, with a separate private linkage."""
 from pathlib import Path
 import hashlib, csv, json
-root=Path.home()/'Documents/morning-20261118/touch-without-words'
+import argparse
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('archive',type=Path,help='Directory containing the two original Costco collections')
+root=parser.parse_args().archive
 out=Path(__file__).resolve().parent
 seed='air-welfare-archive-prerun-20261121-v1'
 digest=lambda s:hashlib.sha256(s.encode()).hexdigest()

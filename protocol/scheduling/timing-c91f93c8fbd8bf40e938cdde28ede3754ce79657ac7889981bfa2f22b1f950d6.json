@@ -9077,22 +9077,19 @@
   ],
   "leases": [
     {
-      "app_id": "app-id-removed-3",
-      "basis": "Matched deployment and occupancy preflight; includes startup and final drain",
+      "basis": "Matched study replica and occupancy preflight, including startup and final drain",
       "node": "c",
       "start": "2026-11-22T05:13:47.350484+00:00",
       "started_epoch": 1795324427.350483
     },
     {
-      "app_id": "app-id-removed-2",
-      "basis": "Matched deployment and occupancy preflight; includes startup and final drain",
+      "basis": "Matched study replica and occupancy preflight, including startup and final drain",
       "node": "b",
       "start": "2026-11-22T05:13:47.351264+00:00",
       "started_epoch": 1795324427.3512619
     },
     {
-      "app_id": "app-id-removed-1",
-      "basis": "Matched deployment and occupancy preflight; includes startup and final drain",
+      "basis": "Matched study replica and occupancy preflight, including startup and final drain",
       "node": "primary",
       "start": "2026-11-22T05:24:10.481632+00:00",
       "started_epoch": 1795325050.481631
@@ -9179,6 +9176,7 @@
       }
     ]
   },
+  "public_copy_of_sha256": "c9b7db0768ddd5d5db7de60e4d5161a09e8a2f2fe0f8137f07343b5d3ab4a6be",
   "raw_reservation_ids": [
     "as-003ce25c98510fdeff7b",
     "as-0353acad1951c62ebf44",

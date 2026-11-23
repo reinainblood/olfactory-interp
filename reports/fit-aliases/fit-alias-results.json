@@ -22,7 +22,7 @@
   "seed": 20261122,
   "permutation_draws": 10000,
   "node_counts": {
-    "3c7ce2b23f9c": 24
+    "becba3bee335": 24
   },
   "directed_full_gallery_queries_per_view": 48,
   "full_gallery_candidates_per_query": 24,
@@ -775,19 +775,19 @@
     "distinct_logical_cells": 96,
     "unique_completed_physical_ids": 96,
     "endpoint_fingerprints": [
-      "3c7ce2b23f9c"
+      "becba3bee335"
     ],
     "authorized_replacements": [
       {
         "trial_id": "as-36aefc8b83b3ab691909",
         "cid": "13216",
         "physical_run_id": "astra-air-retry-de32f60364d669318288-0001-d55437c791e0",
-        "authorization_sha256": "315f331690c558937a2abbe7e2aec7346c943b0333b83deca4ff8ad998cb04b2"
+        "authorization_sha256": "242ebd5b18f410e9b0da1a6aa2a4ba82ba20f85dfa1a3eeea3502deb2ff23ff0"
       }
     ]
   },
   "endpoint_counts": {
-    "3c7ce2b23f9c": 24
+    "becba3bee335": 24
   },
   "stratification_note": "The registered within-node gallery uses the endpoint fingerprint and recorder source. The primary GPU container was replaced during as-36aefc8b83b3ab691909. The fingerprint is shared across its old and new containers; this restriction cannot control for container-specific differences.",
   "posthoc_spelling_overlap": {

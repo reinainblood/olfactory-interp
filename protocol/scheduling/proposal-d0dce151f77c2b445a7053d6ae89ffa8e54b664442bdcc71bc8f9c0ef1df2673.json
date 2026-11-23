@@ -618,6 +618,7 @@
     "capacity_timing.py": "7955a6d98b8ee3740034a2e77e9ca06748e50132481b9d33824ab96ca0627e85"
   },
   "manifest_sha256": "4516192c45ff56feaeef616ef3f798ae5e1c280cc3dc9906a66bc23476499631",
+  "public_copy_of_sha256": "8f884b61a69a2c5b0121e1b8d0adcad0da794e8c62f321a516e130ec6686662c",
   "schema": "air-unexposed-cost-only-v1",
   "scientific_units": "All scored trials of a compound or a story move together across every present and future stage. State captures stay independently pinned to primary. No previously claimed, queued-to-a-physical-node, partially written, completed or uncertain scored group can move.",
   "selection_trace": [
@@ -1377,8 +1378,8 @@
     }
   },
   "snapshot_event": 257,
-  "snapshot_file": "timing-c9b7db0768ddd5d5db7de60e4d5161a09e8a2f2fe0f8137f07343b5d3ab4a6be.json",
-  "snapshot_sha256": "c9b7db0768ddd5d5db7de60e4d5161a09e8a2f2fe0f8137f07343b5d3ab4a6be",
+  "snapshot_file": "timing-c91f93c8fbd8bf40e938cdde28ede3754ce79657ac7889981bfa2f22b1f950d6.json",
+  "snapshot_sha256": "c91f93c8fbd8bf40e938cdde28ede3754ce79657ac7889981bfa2f22b1f950d6",
   "snapshot_utc": "2026-11-22T06:25:40.775905+00:00",
   "uncertainty": "Scenario seconds assume fixed measured rates and stage lengths; small, completed-only length sample, uncapped future reasoning, unknown future task type and review/queue/teardown delays preclude a finite empirical upper bound. The all-warm node-hour estimate differs from minimum active compute. No stopping or scope reduction follows from this forecast."
 }

@@ -38,7 +38,7 @@ Names and alternate aliases are factual compound identifiers from PubChem's CID 
 To reproduce the selection, obtain the three original CSVs under the pinned Pyrfume directory. Fetch IUPACName,Title properties and the synonyms list from PubChem by POSTing the comma-separated CIDs in `source/eligible-cids.txt` (as parameter `cid`). Archive the replies before rebuilding, since PubChem names can change. Use the checksummed published Moonshot K3.1 Pro tokenizer and dependencies pandas, numpy, scipy, networkx, rdkit 2025.9.3 and tiktoken 0.14.0. Then run:
 
 ```sh
-python -B research/stimuli.py --panel /path/to/keller_2016 --pubchem-properties public-properties.json --pubchem-synonyms public-synonyms.json --tokenizer /path/to/pinned-tokenizer --out /tmp/odor-stimuli-rebuilt
+python -B research/stimuli.py --panel keller_2016 --pubchem-properties public-properties.json --pubchem-synonyms public-synonyms.json --tokenizer pinned-tokenizer --out odor-stimuli-rebuilt
 ```
 
 The source data and artifacts above contain no Kimi inference outputs. Raw natural thought, response and model-side measurement data are collected separately by the run pipeline.

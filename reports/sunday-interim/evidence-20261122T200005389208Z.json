@@ -46,13 +46,15 @@
     "datasets": [
       {
         "records": 30,
-        "asset": "https://github.com/kirstenruge-ship-it/what-the-air-remembers/releases/download/native-qualification-v1/native-qualification-v1.zip",
-        "sha256": "f4716715b614816ab76b12a1cee51af87a106ad4556cbbb50f50e15dd4cd08f0"
+        "asset": "https://github.com/kirstenruge-ship-it/what-the-air-remembers/releases/download/native-qualification-public-v2/native-qualification-v1.zip",
+        "sha256": "f9d6ed823f42678d318398dfc60b5552ce4dad808c37b0a49ce5dc7680d9f650",
+        "sha256_at_scientific_cutoff": "f4716715b614816ab76b12a1cee51af87a106ad4556cbbb50f50e15dd4cd08f0"
       },
       {
         "records": 96,
-        "asset": "https://github.com/kirstenruge-ship-it/what-the-air-remembers/releases/download/fit-cross-alias-v1/fit-cross-alias-reproduction.zip",
-        "sha256": "7be30d97666d381f66c527699197b41c13014c74fb666f23e65cad2504c15e43"
+        "asset": "https://github.com/kirstenruge-ship-it/what-the-air-remembers/releases/download/fit-cross-alias-public-v2/fit-cross-alias-reproduction.zip",
+        "sha256": "4e2c0b9ed52676d1bd4f0457d387ad3d59baca607c00b3fb3e1b0f4702afe62b",
+        "sha256_at_scientific_cutoff": "7be30d97666d381f66c527699197b41c13014c74fb666f23e65cad2504c15e43"
       }
     ],
     "molab": "https://molab.marimo.io/notebooks/nb_R6WFpLUTQJdZNwndSMx7G4",
@@ -82,7 +84,9 @@
       "molecules": 24,
       "queries": 48,
       "field_note_figure_sha256": "3e413841a73a122605d2e4f5693b86265ef35508ee7a5d3933bec44fe5d4fd9a",
-      "report_sha256": "7151df95f7ce850eff3c04400e610160cd390c57f8d5c7ccc84be7c960fa6d7a"
+      "report_sha256": "b92066e2d8e39114a5fc28d9c53bfbf824643b328383ecd2d5aa8f6cd9cbb8e6",
+      "report_sha256_at_scientific_cutoff": "7151df95f7ce850eff3c04400e610160cd390c57f8d5c7ccc84be7c960fa6d7a"
     }
-  }
+  },
+  "distribution_note": "Download URLs and checksums were updated for the privacy-edited releases. The scientific data and original Sunday cutoff are preserved."
 }
