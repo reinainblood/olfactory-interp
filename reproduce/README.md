@@ -23,6 +23,10 @@ python3 reproduce/data_release.py verify assets --catalog-sha256 "$CATALOG_SHA"
 
 The optional digest pins the exact catalog to a separately obtained release record. Without that argument, the reader prints the catalog's SHA-256 and checks the files against the supplied catalog. A local assembly with nested asset folders also works. The summary distinguishes `interim` from `terminal` bundles.
 
+## Reopen the final notebook offline
+
+The final release’s full notebook ZIP includes the editable source, original live-cell transcript and display data. Its separate `what-the-air-remembers-notebook-data.zip` is a source-free recovery asset. If Molab has reclaimed the runtime, the final notebook's recovery cell restores missing event/status files and trace records from the checksum-pinned public GitHub Release. It uses existing verified display files first. To work offline, place the data ZIP in the working directory beside `notebook.py` and run the recovery cell. A conflicting existing file is preserved and identified for inspection. The checksum and filename are listed in the final release catalog.
+
 ## Follow one physical model run
 
 The following example uses the public H0 engineering case `h0-as-9307c56722d42e4d58e3-one_ulp` on the primary recorder. This particular intervention changed one BF16 coordinate at layer 47. It provides a small example with a completed natural response, two layers of captured activations and before/after write tensors. H0 measures numerical and recorder behavior. Scientific estimates come from the separate scientific groups and registered comparisons.
