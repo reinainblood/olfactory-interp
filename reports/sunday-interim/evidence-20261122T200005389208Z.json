@@ -57,7 +57,6 @@
         "sha256_at_scientific_cutoff": "7be30d97666d381f66c527699197b41c13014c74fb666f23e65cad2504c15e43"
       }
     ],
-    "molab": "https://molab.marimo.io/notebooks/nb_R6WFpLUTQJdZNwndSMx7G4",
     "technical": {
       "true_zero_replays": 6,
       "planned_explicit": 12,
@@ -86,7 +85,8 @@
       "field_note_figure_sha256": "3e413841a73a122605d2e4f5693b86265ef35508ee7a5d3933bec44fe5d4fd9a",
       "report_sha256": "b92066e2d8e39114a5fc28d9c53bfbf824643b328383ecd2d5aa8f6cd9cbb8e6",
       "report_sha256_at_scientific_cutoff": "7151df95f7ce850eff3c04400e610160cd390c57f8d5c7ccc84be7c960fa6d7a"
-    }
+    },
+    "reader_notebook": "https://github.com/kirstenruge-ship-it/what-the-air-remembers/tree/main/reports/shared-notebook"
   },
   "distribution_note": "Download URLs and checksums were updated for the privacy-edited releases. The scientific data and original Sunday cutoff are preserved."
 }

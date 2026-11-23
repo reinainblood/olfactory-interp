@@ -1,5 +1,7 @@
 # What the air remembers
 
+[Read the privacy-edited field notebook](reports/shared-notebook/README.md) · [Download the editable research snapshot](reports/shared-notebook/what-the-air-remembers-editable-notebook.zip?raw=1)
+
 **Sunday, November 22, at 2 p.m. Chicago time.** Kimi had completed 869 scientific trials, including all 160 ordinary state captures. The fitting and development sets had 312 of the 336 required odor comparisons, with complete inputs for 19 of 28 compounds. The experiment had yet to deliver its first learned odor cue. [Download the illustrated Sunday report and timestamped evidence (ZIP)](reports/what-the-air-remembers-sunday-interim.zip)
 
 What could already be measured? At layer 71, the difference between activations after an odor instruction and a printed-name instruction retrieved the alternate name in 13 of 48 searches. Matching letter sequences alone retrieved 35. Both measurements use the same 24 fitting compounds. This leaves a concrete question for the intervention. If the question contains neither name, can a cue built from odor judgments recover a decision about the compound? [Sunday evidence record](reports/sunday-interim/evidence-20261122T200005389208Z.json) · [Underlying measurements and controls](reports/fit-aliases/measured-results.md)
