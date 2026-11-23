@@ -1,0 +1,333 @@
+{
+  "scope": "Paired observed sample switches versus sham across eight fixed development prompt/order pairs per dose; individual draws at temperature one. Arithmetic crosscheck across all nonzero writes.",
+  "all_24_upper_vs_lower_prewrite_rows_identical": true,
+  "all_24_physical_upsizes_matched_prediction": true,
+  "switches": {
+    "0.05": {
+      "odor": {
+        "valid": 8,
+        "switches": 2
+      },
+      "lexical": {
+        "valid": 8,
+        "switches": 3
+      },
+      "wrong": {
+        "valid": 8,
+        "switches": 3
+      },
+      "repeat_sham": {
+        "valid": 8,
+        "switches": 0
+      }
+    },
+    "0.1": {
+      "odor": {
+        "valid": 8,
+        "switches": 1
+      },
+      "lexical": {
+        "valid": 8,
+        "switches": 3
+      },
+      "wrong": {
+        "valid": 8,
+        "switches": 3
+      },
+      "repeat_sham": {
+        "valid": 8,
+        "switches": 0
+      }
+    }
+  },
+  "upper_checks": [
+    {
+      "lower_trial": "as-6aff2d83c796161819d3",
+      "upper_trial": "as-6aff2d83c796161819d3-d010",
+      "arm": "odor",
+      "same_prewrite": true,
+      "different_coordinates": 1392,
+      "predicted_difference": 1392,
+      "upper_measured_norm": 0.011540388384273074,
+      "predicted_upper_norm": 0.011540388384273074,
+      "upper_cosine": 0.6228248816442302,
+      "predicted_upper_cosine": 0.6228248816442316
+    },
+    {
+      "lower_trial": "as-aeb0557e0cc553fbdff7",
+      "upper_trial": "as-aeb0557e0cc553fbdff7-d010",
+      "arm": "lexical",
+      "same_prewrite": true,
+      "different_coordinates": 1400,
+      "predicted_difference": 1400,
+      "upper_measured_norm": 0.011696341377414042,
+      "predicted_upper_norm": 0.011696341377414042,
+      "upper_cosine": 0.6141383509193475,
+      "predicted_upper_cosine": 0.6141383509193484
+    },
+    {
+      "lower_trial": "as-9a9c0714aa254759db79",
+      "upper_trial": "as-9a9c0714aa254759db79-d010",
+      "arm": "wrong",
+      "same_prewrite": true,
+      "different_coordinates": 1366,
+      "predicted_difference": 1366,
+      "upper_measured_norm": 0.011598483781092982,
+      "predicted_upper_norm": 0.011598483781092982,
+      "upper_cosine": 0.6210073241958304,
+      "predicted_upper_cosine": 0.6210073241958322
+    },
+    {
+      "lower_trial": "as-743fce469b08380c8ffb",
+      "upper_trial": "as-743fce469b08380c8ffb-d010",
+      "arm": "odor",
+      "same_prewrite": true,
+      "different_coordinates": 1392,
+      "predicted_difference": 1392,
+      "upper_measured_norm": 0.011540388384273074,
+      "predicted_upper_norm": 0.011540388384273074,
+      "upper_cosine": 0.6228248816442302,
+      "predicted_upper_cosine": 0.6228248816442316
+    },
+    {
+      "lower_trial": "as-b83878eaa9fa4cbfb10e",
+      "upper_trial": "as-b83878eaa9fa4cbfb10e-d010",
+      "arm": "lexical",
+      "same_prewrite": true,
+      "different_coordinates": 1400,
+      "predicted_difference": 1400,
+      "upper_measured_norm": 0.011696341377414042,
+      "predicted_upper_norm": 0.011696341377414042,
+      "upper_cosine": 0.6141383509193475,
+      "predicted_upper_cosine": 0.6141383509193484
+    },
+    {
+      "lower_trial": "as-4dcc62b371378e645291",
+      "upper_trial": "as-4dcc62b371378e645291-d010",
+      "arm": "wrong",
+      "same_prewrite": true,
+      "different_coordinates": 1366,
+      "predicted_difference": 1366,
+      "upper_measured_norm": 0.011598483781092982,
+      "predicted_upper_norm": 0.011598483781092982,
+      "upper_cosine": 0.6210073241958304,
+      "predicted_upper_cosine": 0.6210073241958322
+    },
+    {
+      "lower_trial": "as-c377004eeca3937b3452",
+      "upper_trial": "as-c377004eeca3937b3452-d010",
+      "arm": "odor",
+      "same_prewrite": true,
+      "different_coordinates": 2893,
+      "predicted_difference": 2893,
+      "upper_measured_norm": 0.03740648756221251,
+      "predicted_upper_norm": 0.03740648756221251,
+      "upper_cosine": 0.8630811446330332,
+      "predicted_upper_cosine": 0.8630811446330353
+    },
+    {
+      "lower_trial": "as-486f8bb73b705442ee18",
+      "upper_trial": "as-486f8bb73b705442ee18-d010",
+      "arm": "lexical",
+      "same_prewrite": true,
+      "different_coordinates": 2849,
+      "predicted_difference": 2849,
+      "upper_measured_norm": 0.03705934544227357,
+      "predicted_upper_norm": 0.03705934544227357,
+      "upper_cosine": 0.8553704275925811,
+      "predicted_upper_cosine": 0.8553704275925831
+    },
+    {
+      "lower_trial": "as-e8cb42edd57b585cce1f",
+      "upper_trial": "as-e8cb42edd57b585cce1f-d010",
+      "arm": "wrong",
+      "same_prewrite": true,
+      "different_coordinates": 2923,
+      "predicted_difference": 2923,
+      "upper_measured_norm": 0.037600638474514975,
+      "predicted_upper_norm": 0.037600638474514975,
+      "upper_cosine": 0.8605914814568071,
+      "predicted_upper_cosine": 0.860591481456809
+    },
+    {
+      "lower_trial": "as-88f422b733e51b97afad",
+      "upper_trial": "as-88f422b733e51b97afad-d010",
+      "arm": "odor",
+      "same_prewrite": true,
+      "different_coordinates": 2893,
+      "predicted_difference": 2893,
+      "upper_measured_norm": 0.03740648756221251,
+      "predicted_upper_norm": 0.03740648756221251,
+      "upper_cosine": 0.8630811446330332,
+      "predicted_upper_cosine": 0.8630811446330353
+    },
+    {
+      "lower_trial": "as-c6a9ec4cffab19f287a2",
+      "upper_trial": "as-c6a9ec4cffab19f287a2-d010",
+      "arm": "lexical",
+      "same_prewrite": true,
+      "different_coordinates": 2849,
+      "predicted_difference": 2849,
+      "upper_measured_norm": 0.03705934544227357,
+      "predicted_upper_norm": 0.03705934544227357,
+      "upper_cosine": 0.8553704275925811,
+      "predicted_upper_cosine": 0.8553704275925831
+    },
+    {
+      "lower_trial": "as-65e0b4e29331c6ac7fb5",
+      "upper_trial": "as-65e0b4e29331c6ac7fb5-d010",
+      "arm": "wrong",
+      "same_prewrite": true,
+      "different_coordinates": 2923,
+      "predicted_difference": 2923,
+      "upper_measured_norm": 0.037600638474514975,
+      "predicted_upper_norm": 0.037600638474514975,
+      "upper_cosine": 0.8605914814568071,
+      "predicted_upper_cosine": 0.860591481456809
+    },
+    {
+      "lower_trial": "as-a9eccd6a85aba6a1598b",
+      "upper_trial": "as-a9eccd6a85aba6a1598b-d010",
+      "arm": "odor",
+      "same_prewrite": true,
+      "different_coordinates": 1241,
+      "predicted_difference": 1241,
+      "upper_measured_norm": 0.009774967128983672,
+      "predicted_upper_norm": 0.009774967128983672,
+      "upper_cosine": 0.592456319685703,
+      "predicted_upper_cosine": 0.5924563196857039
+    },
+    {
+      "lower_trial": "as-aadc71b873db2db909e9",
+      "upper_trial": "as-aadc71b873db2db909e9-d010",
+      "arm": "lexical",
+      "same_prewrite": true,
+      "different_coordinates": 1154,
+      "predicted_difference": 1154,
+      "upper_measured_norm": 0.009220183339174853,
+      "predicted_upper_norm": 0.009220183339174853,
+      "upper_cosine": 0.5659749304350996,
+      "predicted_upper_cosine": 0.5659749304351007
+    },
+    {
+      "lower_trial": "as-9ab78b2ff0a428cc99fd",
+      "upper_trial": "as-9ab78b2ff0a428cc99fd-d010",
+      "arm": "wrong",
+      "same_prewrite": true,
+      "different_coordinates": 1212,
+      "predicted_difference": 1212,
+      "upper_measured_norm": 0.00952900458700428,
+      "predicted_upper_norm": 0.00952900458700428,
+      "upper_cosine": 0.5864887822717517,
+      "predicted_upper_cosine": 0.5864887822717533
+    },
+    {
+      "lower_trial": "as-94e7fcaa589c59865c65",
+      "upper_trial": "as-94e7fcaa589c59865c65-d010",
+      "arm": "odor",
+      "same_prewrite": true,
+      "different_coordinates": 1241,
+      "predicted_difference": 1241,
+      "upper_measured_norm": 0.009774967128983672,
+      "predicted_upper_norm": 0.009774967128983672,
+      "upper_cosine": 0.592456319685703,
+      "predicted_upper_cosine": 0.5924563196857039
+    },
+    {
+      "lower_trial": "as-aeedbc89705f3d450fd0",
+      "upper_trial": "as-aeedbc89705f3d450fd0-d010",
+      "arm": "lexical",
+      "same_prewrite": true,
+      "different_coordinates": 1154,
+      "predicted_difference": 1154,
+      "upper_measured_norm": 0.009220183339174853,
+      "predicted_upper_norm": 0.009220183339174853,
+      "upper_cosine": 0.5659749304350996,
+      "predicted_upper_cosine": 0.5659749304351007
+    },
+    {
+      "lower_trial": "as-38389a6b3e8ff6f29705",
+      "upper_trial": "as-38389a6b3e8ff6f29705-d010",
+      "arm": "wrong",
+      "same_prewrite": true,
+      "different_coordinates": 1212,
+      "predicted_difference": 1212,
+      "upper_measured_norm": 0.00952900458700428,
+      "predicted_upper_norm": 0.00952900458700428,
+      "upper_cosine": 0.5864887822717517,
+      "predicted_upper_cosine": 0.5864887822717533
+    },
+    {
+      "lower_trial": "as-1197d2615b4b1fd68193",
+      "upper_trial": "as-1197d2615b4b1fd68193-d010",
+      "arm": "odor",
+      "same_prewrite": true,
+      "different_coordinates": 1322,
+      "predicted_difference": 1322,
+      "upper_measured_norm": 0.01074300520566155,
+      "predicted_upper_norm": 0.01074300520566155,
+      "upper_cosine": 0.6091381223788058,
+      "predicted_upper_cosine": 0.609138122378807
+    },
+    {
+      "lower_trial": "as-b03263b8290f108e5105",
+      "upper_trial": "as-b03263b8290f108e5105-d010",
+      "arm": "lexical",
+      "same_prewrite": true,
+      "different_coordinates": 1301,
+      "predicted_difference": 1301,
+      "upper_measured_norm": 0.010747744000104234,
+      "predicted_upper_norm": 0.010747744000104234,
+      "upper_cosine": 0.5989538440134984,
+      "predicted_upper_cosine": 0.5989538440134996
+    },
+    {
+      "lower_trial": "as-c35c68f62d394f9b4bb1",
+      "upper_trial": "as-c35c68f62d394f9b4bb1-d010",
+      "arm": "wrong",
+      "same_prewrite": true,
+      "different_coordinates": 1348,
+      "predicted_difference": 1348,
+      "upper_measured_norm": 0.010861401189484815,
+      "predicted_upper_norm": 0.010861401189484815,
+      "upper_cosine": 0.613225804634901,
+      "predicted_upper_cosine": 0.6132258046349027
+    },
+    {
+      "lower_trial": "as-1c0cc4cb82c4a172e2b5",
+      "upper_trial": "as-1c0cc4cb82c4a172e2b5-d010",
+      "arm": "odor",
+      "same_prewrite": true,
+      "different_coordinates": 1322,
+      "predicted_difference": 1322,
+      "upper_measured_norm": 0.01074300520566155,
+      "predicted_upper_norm": 0.01074300520566155,
+      "upper_cosine": 0.6091381223788058,
+      "predicted_upper_cosine": 0.609138122378807
+    },
+    {
+      "lower_trial": "as-efad063dbac5fcbc393f",
+      "upper_trial": "as-efad063dbac5fcbc393f-d010",
+      "arm": "lexical",
+      "same_prewrite": true,
+      "different_coordinates": 1301,
+      "predicted_difference": 1301,
+      "upper_measured_norm": 0.010747744000104234,
+      "predicted_upper_norm": 0.010747744000104234,
+      "upper_cosine": 0.5989538440134984,
+      "predicted_upper_cosine": 0.5989538440134996
+    },
+    {
+      "lower_trial": "as-761401aab08c34558aaa",
+      "upper_trial": "as-761401aab08c34558aaa-d010",
+      "arm": "wrong",
+      "same_prewrite": true,
+      "different_coordinates": 1348,
+      "predicted_difference": 1348,
+      "upper_measured_norm": 0.010861401189484815,
+      "predicted_upper_norm": 0.010861401189484815,
+      "upper_cosine": 0.613225804634901,
+      "predicted_upper_cosine": 0.6132258046349027
+    }
+  ]
+}
