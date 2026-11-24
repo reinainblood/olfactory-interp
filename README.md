@@ -2,7 +2,7 @@
 
 **Final result.** The intended hidden cue failed its specific transport test in all four compounds at both doses. With the odor written into a household story, Kimi retrieved the right request in 48/48 controls. All 1,068 eligible trials were completed. [Results, data and verification](reports/final-results/README.md)
 
-[Read the notebook on Hive Fidelity](https://hivefidelity.ai/kimi-smell/notebook/) · [Notebook source data and editable export](reports/site-notebook/README.md)
+[Explore the 665 archived Costco trips](https://hivefidelity.ai/kimi-smell/costco/) · [Read the notebook on Hive Fidelity](https://hivefidelity.ai/kimi-smell/notebook/) · [Notebook source data and editable export](reports/site-notebook/README.md)
 
 This repository holds the frozen inputs, registration, data and reports for the study. It was first published as "What the air remembers", and the dated reports keep that title. Project page: https://hivefidelity.ai/kimi-smell/
 
